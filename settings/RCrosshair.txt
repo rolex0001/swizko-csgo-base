@@ -1,0 +1,28 @@
+//Enable recoil crosshair
+ENABLE_RECOIL_CROSSHAIR = true
+RCROSSHAIR_TYPE = CIRCLE
+
+//Enable sniper crosshair
+//Static crosshair when holding a sniper
+ENABLE_SNIPER_CROSSHAIR = true
+
+//Radius of the crosshair circle
+RCROSSHAIR_RADIUS = 10
+
+//Width of the crosshair bars
+RCROSSHAIR_WIDTH = 5
+
+//Length of the crosshair bars
+RCROSSHAIR_LENGTH = 100
+
+//Alpha of the crosshair
+RCROSSHAIR_ALPHA = 0.5
+
+//Center screen X offset of the crosshair
+RCROSSHAIR_XOFFSET = 1
+
+//Center screen Y offset of the crosshair
+RCROSSHAIR_YOFFSET = -2
+
+//Color of the crosshair
+RCROSSHAIR_COLOR = Color(red=255, green=255, blue=255, alpha=1.0)
