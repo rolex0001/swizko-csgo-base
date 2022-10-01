@@ -1,47 +1,3 @@
-[![Pull Requests](https://img.shields.io/github/issues-pr/TheRatCode/RatPoison.svg)](https://github.com/TheRatCode/RatPoison/pulls/)
-[![Release](https://img.shields.io/github/release/TheRatCode/RatPoison.svg)](https://github.com/TheRatCode/RatPoison/releases/)
-![Code size](https://img.shields.io/github/languages/code-size/TheRatCode/RatPoison.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/TheRatCode/RatPoison.svg)
-[![Discord](https://discord.com/api/guilds/785830829439320095/widget.png)](https://discord.gg/TGsp8SNcFZ)
-![Downloads](https://img.shields.io/github/downloads/TheFuckingRat/RatPoison/total.svg)
-
-## ⚠️ __RatPoison is VAC detected, use at own risk. For more updates join our [Discord server](https://discord.gg/TGsp8SNcFZ)__ ⚠️
-
-## Support our Team
-
-Hundreds of hours have gone into developing Charlatano and RatPoison. Feel free to show our team some love.
-
-* **_[Ratto](https://github.com/TheRatCode)_** on [Patreon](https://www.patreon.com/ratto)
-* **_[Spravedlivo](https://github.com/Spravedlivo)_** on [Patreon](https://www.patreon.com/spravedlivo)
-    * Or with BTC: _bc1qmxkd2dalzwdy0dhhqh8v64m9xj0nz0g52l292e_
-    * Or with PayPal: _wewestteam1@gmail.com_
-* **_[Jire](https://github.com/Jire)_** on [Patreon](https://www.patreon.com/Jire)
-    * Or with BTC: _3ErbuRTxtFqvMQ7F2Z8SfpgAXjonsQs8Vc_
-    * Or with CashApp: _jires_
-
----
-
-This branch is being updated at [TheFuckingRat's Github Repository](https://github.com/TheFuckingRat/RatPoison)
-
-The official branch (Charlatano) is located at [Jire's GitHub Repository](https://github.com/Jire/Charlatano).
-
----
-
-## 📝 Table of Contents
-
-- [Beginner's guide video](#video)
-- [Compilation](#compilation)
-- [Common issues](#issues)
-- [Contributing](#contributing)
-- [Recent update](#update)
-- [Available Features](#features)
-
-## Beginner's guide video <a name = "video"></a>
-
-[![video](https://img.youtube.com/vi/LXBTAnnwahU/0.jpg)](https://www.youtube.com/watch?v=LXBTAnnwahU)
-
-Recommended to watch before continuing.
-
 ## Compilation <a name = "compilation"></a>
 The first step is to compile the source code into a usable cheat program.
 
@@ -63,11 +19,6 @@ You can launch the cheat at any time after launching CSGO.
     * The overlay only works on Windows 10, it doesn't turn transparent on W7
     * CSGO needs to be borderless/windowed for the overlay to show up on top of CS, otherwise it's just an app in your taskbar
     * JDK 1.8 is also known to cause this problem, make sure you have JDK 12 or later installed
-
-* Console is being spammed with GLFW errors
-    * Usually a result of unsupported or misconfigured hardware
-    * In some cases <code>GLFW_PLATFORM_ERROR</code> can be fixed by [forcing dedicated GPU on java.exe process](https://github.com/libgdx/libgdx/issues/6048#issuecomment-660468942).
-    * If RatPoison 1.6 worked fine for you but 1.7 spams OpenGL errors, try editing [this](https://github.com/TheRatCode/RatPoison/blob/82f7a76e6115c8840e4188cffdb8f10b831ae385/src/main/kotlin/rat/poison/RatPoison.kt#L183) line to <code>useOpenGL3(true, 3, 2)</code> and rebuild the cheat.
 
 * Game looks framey despite having normal FPS (example 144hz/144fps, but looks like 60)
     * Lowering opengl fps to 30 helps
@@ -277,12 +228,3 @@ Credit to [Mr. Noad](https://github.com/10urshin), [2772/Matt](https://github.co
 	* Kill bind
 	* Disable Post Processing
 	* Temporary name change
-
-## Check out YourKit!
-[![YourKit](https://www.yourkit.com/images/yklogo.png)](https://www.yourkit.com/)
-
-YourKit supports open source projects with innovative and intelligent tools 
-for monitoring and profiling Java and .NET applications.
-YourKit is the creator of [YourKit Java Profiler](https://www.yourkit.com/java/profiler/),
-[YourKit .NET Profiler](https://www.yourkit.com/.net/profiler/),
-and [YourKit YouMonitor](https://www.yourkit.com/youmonitor/).
