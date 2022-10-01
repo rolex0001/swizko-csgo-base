@@ -1,8 +1,8 @@
-package rat.poison.utils
+package rat.swizko.utils
 
-import rat.poison.SETTINGS_DIRECTORY
-import rat.poison.curSettings
-import rat.poison.utils.generalUtil.loadLocale
+import rat.swizko.SETTINGS_DIRECTORY
+import rat.swizko.curSettings
+import rat.swizko.utils.generalUtil.loadLocale
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.util.*

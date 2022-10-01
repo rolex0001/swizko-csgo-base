@@ -1,4 +1,4 @@
-package rat.poison.utils
+package rat.swizko.utils
 
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap
 

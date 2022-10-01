@@ -1,14 +1,14 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
-import rat.poison.curSettings
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.hooks.toneMapController
-import rat.poison.game.netvars.NetVarOffsets.m_bUseCustomAutoExposureMax
-import rat.poison.game.netvars.NetVarOffsets.m_bUseCustomAutoExposureMin
-import rat.poison.game.netvars.NetVarOffsets.m_flCustomAutoExposureMax
-import rat.poison.game.netvars.NetVarOffsets.m_flCustomAutoExposureMin
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.hooks.toneMapController
+import rat.swizko.game.netvars.NetVarOffsets.m_bUseCustomAutoExposureMax
+import rat.swizko.game.netvars.NetVarOffsets.m_bUseCustomAutoExposureMin
+import rat.swizko.game.netvars.NetVarOffsets.m_flCustomAutoExposureMax
+import rat.swizko.game.netvars.NetVarOffsets.m_flCustomAutoExposureMin
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
 
 fun nightMode() = every(1000, inGameCheck = true) {
     if (!curSettings["ENABLE_ESP"].strToBool()) return@every

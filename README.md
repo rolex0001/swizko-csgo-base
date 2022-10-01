@@ -6,10 +6,10 @@ The first step is to compile the source code into a usable cheat program.
 * Double click on the "_installer_" (_installer.exe_) script and wait for it to complete.
 
 Once those steps are complete, the usable cheat program can be found within the _build_
-directory, and will be in a directory called **RatPoison 1.7**.
+directory, and will be in a directory called **Ratswizko 1.7**.
 
-From within the **RatPoison 1.7** directory, you can start the cheat by running
-the _"Start RatPoison 1.7"_ script.
+From within the **Ratswizko 1.7** directory, you can start the cheat by running
+the _"Start Ratswizko 1.7"_ script.
 If you have chosen to randomize the cheat name, you should open the file ending in .bat which should show ![BatFile](https://i.imgur.com/JZAhmtr.png) as an icon.
 
 You can launch the cheat at any time after launching CSGO.
@@ -26,10 +26,10 @@ You can launch the cheat at any time after launching CSGO.
    
 * Cheat is stuck at launching? Make sure you have checked all of those steps:
     * CS:GO is running
-    * you are running currently most up-to-date version of RatPoison
+    * you are running currently most up-to-date version of Ratswizko
     * you disabled all anti-cheat clients working on your computer
-    * your RatPoison folder is placed somewhere with all running permissions
-    * you don't use RatPoison with some other cheats running
+    * your Ratswizko folder is placed somewhere with all running permissions
+    * you don't use Ratswizko with some other cheats running
     * you aren't currently running VAC bypass (running the bat file with administrator privileges should work)
     * you restarted your computer
     

@@ -1,7 +1,7 @@
-package rat.poison.utils.extensions
+package rat.swizko.utils.extensions
 
 import com.sun.jna.platform.win32.WinDef
-import rat.poison.utils.natives.CUser32
+import rat.swizko.utils.natives.CUser32
 import java.lang.Math.sqrt
 
 fun WinDef.POINT.set(x: Int, y: Int) = apply {

@@ -1,23 +1,23 @@
-package rat.poison.game
+package rat.swizko.game
 
 import com.sun.jna.Pointer
 import com.sun.jna.platform.win32.WinDef
 import org.jire.arrowhead.Module
 import org.jire.arrowhead.Process
 import org.jire.arrowhead.processByName
-import rat.poison.DEFAULT_MENU_APP
-import rat.poison.dbg
-import rat.poison.game.hooks.constructEntities
-import rat.poison.game.hooks.updateCursorEnable
-import rat.poison.game.netvars.NetVars
-import rat.poison.settings.CLIENT_MODULE_NAME
-import rat.poison.settings.ENGINE_MODULE_NAME
-import rat.poison.settings.PROCESS_ACCESS_FLAGS
-import rat.poison.settings.PROCESS_NAME
-import rat.poison.utils.every
-import rat.poison.utils.inBackground
-import rat.poison.utils.natives.CUser32
-import rat.poison.utils.retry
+import rat.swizko.DEFAULT_MENU_APP
+import rat.swizko.dbg
+import rat.swizko.game.hooks.constructEntities
+import rat.swizko.game.hooks.updateCursorEnable
+import rat.swizko.game.netvars.NetVars
+import rat.swizko.settings.CLIENT_MODULE_NAME
+import rat.swizko.settings.ENGINE_MODULE_NAME
+import rat.swizko.settings.PROCESS_ACCESS_FLAGS
+import rat.swizko.settings.PROCESS_NAME
+import rat.swizko.utils.every
+import rat.swizko.utils.inBackground
+import rat.swizko.utils.natives.CUser32
+import rat.swizko.utils.retry
 import kotlin.system.exitProcess
 
 object CSGO {

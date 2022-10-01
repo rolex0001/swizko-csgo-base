@@ -1,6 +1,6 @@
 @file:Suppress("BlockingMethodInNonBlockingContext")
 
-package rat.poison.ui.tabs
+package rat.swizko.ui.tabs
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table
 import com.badlogic.gdx.utils.Array
@@ -12,23 +12,23 @@ import com.kotcrab.vis.ui.widget.VisSelectBox
 import com.kotcrab.vis.ui.widget.VisTable
 import com.kotcrab.vis.ui.widget.VisTextButton
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
-import rat.poison.SETTINGS_DIRECTORY
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.overlay.App.menuStage
-import rat.poison.overlay.App.uiBombWindow
-import rat.poison.overlay.App.uiSpecList
-import rat.poison.toLocale
-import rat.poison.ui.changed
-import rat.poison.ui.refreshMenu
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiHelpers.VisInputFieldCustom
-import rat.poison.ui.uiHelpers.VisSliderCustom
-import rat.poison.ui.uiPanels.optionsTab
-import rat.poison.ui.uiRefreshing
-import rat.poison.ui.uiUpdate
-import rat.poison.utils.*
-import rat.poison.utils.generalUtil.loadLocale
+import rat.swizko.SETTINGS_DIRECTORY
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.overlay.App.menuStage
+import rat.swizko.overlay.App.uiBombWindow
+import rat.swizko.overlay.App.uiSpecList
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
+import rat.swizko.ui.refreshMenu
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.VisInputFieldCustom
+import rat.swizko.ui.uiHelpers.VisSliderCustom
+import rat.swizko.ui.uiPanels.optionsTab
+import rat.swizko.ui.uiRefreshing
+import rat.swizko.ui.uiUpdate
+import rat.swizko.utils.*
+import rat.swizko.utils.generalUtil.loadLocale
 import java.io.File
 
 var saving = false

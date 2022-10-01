@@ -1,12 +1,12 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
-import rat.poison.curSettings
-import rat.poison.game.entity.kills
-import rat.poison.game.me
-import rat.poison.robot
-import rat.poison.scripts.aim.meDead
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.entity.kills
+import rat.swizko.game.me
+import rat.swizko.robot
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
 
 private var totalKills = me.kills()
 

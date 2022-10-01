@@ -1,27 +1,27 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import org.apache.commons.lang3.StringUtils
-import rat.poison.curSettings
-import rat.poison.game.CSGO.ENTITY_SIZE
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.clientState
-import rat.poison.game.entity.steamID
-import rat.poison.game.entity.type
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.hMyWeapons
-import rat.poison.game.netvars.NetVarOffsets.m_OriginalOwnerXuidLow
-import rat.poison.game.netvars.NetVarOffsets.m_flFallbackWear
-import rat.poison.game.netvars.NetVarOffsets.m_iAccountID
-import rat.poison.game.netvars.NetVarOffsets.m_iItemIDHigh
-import rat.poison.game.netvars.NetVarOffsets.m_nFallbackPaintKit
-import rat.poison.game.netvars.NetVarOffsets.m_nFallbackStatTrak
-import rat.poison.game.offsets.ClientOffsets.dwEntityList
-import rat.poison.utils.every
-import rat.poison.utils.extensions.uint
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.toSkinWeaponClass
-import rat.poison.utils.shouldPostProcess
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.ENTITY_SIZE
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.clientState
+import rat.swizko.game.entity.steamID
+import rat.swizko.game.entity.type
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.hMyWeapons
+import rat.swizko.game.netvars.NetVarOffsets.m_OriginalOwnerXuidLow
+import rat.swizko.game.netvars.NetVarOffsets.m_flFallbackWear
+import rat.swizko.game.netvars.NetVarOffsets.m_iAccountID
+import rat.swizko.game.netvars.NetVarOffsets.m_iItemIDHigh
+import rat.swizko.game.netvars.NetVarOffsets.m_nFallbackPaintKit
+import rat.swizko.game.netvars.NetVarOffsets.m_nFallbackStatTrak
+import rat.swizko.game.offsets.ClientOffsets.dwEntityList
+import rat.swizko.utils.every
+import rat.swizko.utils.extensions.uint
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.toSkinWeaponClass
+import rat.swizko.utils.shouldPostProcess
 
 //https://github.com/0xf1a/xSkins
 

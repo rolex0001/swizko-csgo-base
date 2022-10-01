@@ -1,4 +1,4 @@
-package rat.poison.ui.tabs
+package rat.swizko.ui.tabs
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table
 import com.badlogic.gdx.utils.Align
@@ -8,14 +8,14 @@ import com.kotcrab.vis.ui.util.Validators
 import com.kotcrab.vis.ui.util.adapter.ArrayListAdapter
 import com.kotcrab.vis.ui.widget.*
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
-import rat.poison.*
-import rat.poison.scripts.forcedUpdate
-import rat.poison.scripts.skinChanger
-import rat.poison.ui.changed
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiPanels.skinChangerTab
-import rat.poison.utils.extensions.roundNDecimals
-import rat.poison.utils.generalUtil.toSkinWeaponClass
+import rat.swizko.*
+import rat.swizko.scripts.forcedUpdate
+import rat.swizko.scripts.skinChanger
+import rat.swizko.ui.changed
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiPanels.skinChangerTab
+import rat.swizko.utils.extensions.roundNDecimals
+import rat.swizko.utils.generalUtil.toSkinWeaponClass
 
 class SkinChangerTab : Tab(false, false) {
     private val table = VisTable(true)

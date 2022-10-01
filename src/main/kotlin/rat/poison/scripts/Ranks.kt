@@ -1,15 +1,15 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import org.apache.commons.lang3.StringUtils
-import rat.poison.game.entity.*
-import rat.poison.game.forEntities
-import rat.poison.game.rankName
-import rat.poison.overlay.App.haveTarget
-import rat.poison.overlay.opened
-import rat.poison.ui.uiPanels.ranksTab
-import rat.poison.ui.uiRefreshing
-import rat.poison.utils.every
-import rat.poison.utils.extensions.roundNDecimals
+import rat.swizko.game.entity.*
+import rat.swizko.game.forEntities
+import rat.swizko.game.rankName
+import rat.swizko.overlay.App.haveTarget
+import rat.swizko.overlay.opened
+import rat.swizko.ui.uiPanels.ranksTab
+import rat.swizko.ui.uiRefreshing
+import rat.swizko.utils.every
+import rat.swizko.utils.extensions.roundNDecimals
 
 var teamList = mutableListOf<String>()
 var nameList = mutableListOf<String>()

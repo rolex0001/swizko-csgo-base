@@ -1,27 +1,27 @@
-@file:JvmName("RatPoison")
+@file:JvmName("Ratswizko")
 @file:Suppress("BlockingMethodInNonBlockingContext")
 
-package rat.poison
+package rat.swizko
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import org.lwjgl.glfw.GLFW.*
-import rat.poison.game.CSGO
-import rat.poison.game.offsets.EngineOffsets.dwbSendPackets
-import rat.poison.overlay.App
-import rat.poison.scripts.*
-import rat.poison.scripts.aim.flatAim
-import rat.poison.scripts.aim.handleFireKey
-import rat.poison.scripts.aim.pathAim
-import rat.poison.scripts.aim.setAim
-import rat.poison.scripts.visuals.*
-import rat.poison.utils.Settings
-import rat.poison.utils.detectLocale
-import rat.poison.utils.generalUtil.loadSettingsFromFiles
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.loadMigration
+import rat.swizko.game.CSGO
+import rat.swizko.game.offsets.EngineOffsets.dwbSendPackets
+import rat.swizko.overlay.App
+import rat.swizko.scripts.*
+import rat.swizko.scripts.aim.flatAim
+import rat.swizko.scripts.aim.handleFireKey
+import rat.swizko.scripts.aim.pathAim
+import rat.swizko.scripts.aim.setAim
+import rat.swizko.scripts.visuals.*
+import rat.swizko.utils.Settings
+import rat.swizko.utils.detectLocale
+import rat.swizko.utils.generalUtil.loadSettingsFromFiles
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.loadMigration
 import java.awt.Robot
 import java.io.File
 import kotlin.collections.set
@@ -42,7 +42,7 @@ data class oWeapon(var tOverride: Boolean = false,      var tFRecoil: Boolean = 
 //Skinned Weapon
 data class sWeapon(var tSkinID: Int, var tStatTrak: Int, var tWear: Float, var tSeed: Int)
 
-const val TITLE = "RatPoison"
+const val TITLE = "Ratswizko"
 const val BRANCH = "Master"
 const val F_VERSION = "1.7"
 const val M_VERSION = "1.7.1.6"
@@ -169,7 +169,7 @@ fun main() {
             glfwInit()
 
             Lwjgl3Application(App, Lwjgl3ApplicationConfiguration().apply {
-                setTitle("Rat Poison UI")
+                setTitle("Rat swizko UI")
 
                 var w = CSGO.gameWidth
                 var h = CSGO.gameHeight

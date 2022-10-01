@@ -1,6 +1,6 @@
 ////Courtesy of Mr Noad
 
-package rat.poison.utils
+package rat.swizko.utils
 
 import com.sun.jna.Memory
 

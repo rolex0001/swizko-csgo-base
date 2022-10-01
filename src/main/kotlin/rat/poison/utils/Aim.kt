@@ -1,17 +1,17 @@
-package rat.poison.utils
+package rat.swizko.utils
 
 import com.sun.jna.platform.win32.WinDef.POINT
-import rat.poison.curSettings
-import rat.poison.game.CSGO.gameHeight
-import rat.poison.game.CSGO.gameWidth
-import rat.poison.game.CSGO.gameX
-import rat.poison.game.CSGO.gameY
-import rat.poison.game.clientState
-import rat.poison.game.setAngle
-import rat.poison.settings.GAME_PITCH
-import rat.poison.settings.GAME_SENSITIVITY
-import rat.poison.settings.GAME_YAW
-import rat.poison.utils.extensions.refresh
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.gameHeight
+import rat.swizko.game.CSGO.gameWidth
+import rat.swizko.game.CSGO.gameX
+import rat.swizko.game.CSGO.gameY
+import rat.swizko.game.clientState
+import rat.swizko.game.setAngle
+import rat.swizko.settings.GAME_PITCH
+import rat.swizko.settings.GAME_SENSITIVITY
+import rat.swizko.settings.GAME_YAW
+import rat.swizko.utils.extensions.refresh
 import kotlin.math.round
 
 private val delta = ThreadLocal.withInitial { Vector() }

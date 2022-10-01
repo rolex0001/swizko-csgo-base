@@ -1,6 +1,6 @@
-package rat.poison.utils
+package rat.swizko.utils
 
-import rat.poison.haltProcess
+import rat.swizko.haltProcess
 
 @Volatile
 var inBackground = false

@@ -1,18 +1,18 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import org.jire.arrowhead.keyPressed
-import rat.poison.curSettings
-import rat.poison.game.entity.absPosition
-import rat.poison.game.entity.eyeAngle
-import rat.poison.game.me
-import rat.poison.game.realCalcAngle
-import rat.poison.scripts.aim.meCurWep
-import rat.poison.scripts.aim.meDead
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.*
-import rat.poison.utils.generalUtil.cToDouble
-import rat.poison.utils.generalUtil.cToFloat
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.entity.absPosition
+import rat.swizko.game.entity.eyeAngle
+import rat.swizko.game.me
+import rat.swizko.game.realCalcAngle
+import rat.swizko.scripts.aim.meCurWep
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.*
+import rat.swizko.utils.generalUtil.cToDouble
+import rat.swizko.utils.generalUtil.cToFloat
+import rat.swizko.utils.generalUtil.strToBool
 
 private var mPos = Vector()
 private var calcRes = 0F

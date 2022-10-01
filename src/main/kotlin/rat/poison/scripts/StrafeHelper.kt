@@ -1,19 +1,19 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import org.jire.arrowhead.keyPressed
-import rat.poison.curSettings
-import rat.poison.game.angle
-import rat.poison.game.clientState
-import rat.poison.game.entity.onGround
-import rat.poison.game.hooks.cursorEnable
-import rat.poison.game.hooks.updateCursorEnable
-import rat.poison.game.me
-import rat.poison.robot
-import rat.poison.scripts.aim.meDead
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inBackground
+import rat.swizko.curSettings
+import rat.swizko.game.angle
+import rat.swizko.game.clientState
+import rat.swizko.game.entity.onGround
+import rat.swizko.game.hooks.cursorEnable
+import rat.swizko.game.hooks.updateCursorEnable
+import rat.swizko.game.me
+import rat.swizko.robot
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inBackground
 import java.awt.event.KeyEvent
 import java.awt.event.KeyEvent.VK_SPACE
 

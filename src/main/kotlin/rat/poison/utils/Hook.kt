@@ -1,4 +1,4 @@
-package rat.poison.utils
+package rat.swizko.utils
 
 class Hook(val clauseDefault: Boolean, val durationDefault: Int,
            val predicate: () -> Boolean) {

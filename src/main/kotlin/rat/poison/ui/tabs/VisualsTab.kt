@@ -1,4 +1,4 @@
-package rat.poison.ui.tabs
+package rat.swizko.ui.tabs
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane
@@ -8,15 +8,15 @@ import com.kotcrab.vis.ui.widget.VisTable
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
 import com.kotcrab.vis.ui.widget.tabbedpane.TabbedPane
 import com.kotcrab.vis.ui.widget.tabbedpane.TabbedPaneAdapter
-import rat.poison.curSettings
-import rat.poison.overlay.opened
-import rat.poison.scripts.visuals.disableAllEsp
-import rat.poison.toLocale
-import rat.poison.ui.tabs.visualstabs.*
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiHelpers.VisInputFieldCustom
-import rat.poison.ui.uiPanels.visualsTab
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.overlay.opened
+import rat.swizko.scripts.visuals.disableAllEsp
+import rat.swizko.toLocale
+import rat.swizko.ui.tabs.visualstabs.*
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.VisInputFieldCustom
+import rat.swizko.ui.uiPanels.visualsTab
+import rat.swizko.utils.generalUtil.strToBool
 
 val espTabbedPane = TabbedPane()
 var glowEspTab = GlowEspTab()

@@ -1,18 +1,18 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
-import rat.poison.curSettings
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.entity.*
-import rat.poison.game.forEntities
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.m_hObserverTarget
-import rat.poison.game.offsets.ClientOffsets.dwIndex
-import rat.poison.overlay.App.haveTarget
-import rat.poison.overlay.opened
-import rat.poison.ui.uiPanels.specListText
-import rat.poison.utils.every
-import rat.poison.utils.extensions.readIndex
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.entity.*
+import rat.swizko.game.forEntities
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.m_hObserverTarget
+import rat.swizko.game.offsets.ClientOffsets.dwIndex
+import rat.swizko.overlay.App.haveTarget
+import rat.swizko.overlay.opened
+import rat.swizko.ui.uiPanels.specListText
+import rat.swizko.utils.every
+import rat.swizko.utils.extensions.readIndex
+import rat.swizko.utils.generalUtil.strToBool
 
 internal fun spectatorList() = every(100, inGameCheck = true) {
     if (!curSettings["SPECTATOR_LIST"].strToBool() || !curSettings["MENU"].strToBool()) {

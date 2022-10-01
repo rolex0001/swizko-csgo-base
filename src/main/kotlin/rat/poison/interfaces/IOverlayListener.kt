@@ -1,6 +1,6 @@
 ////Courtesy of Mr Noad
 
-package rat.poison.interfaces
+package rat.swizko.interfaces
 
 interface IOverlayListener {
     fun onTargetAppWindowClosed(overlay: IOverlay)

@@ -1,10 +1,10 @@
 ////Courtesy of Mr Noad
 
-package rat.poison.jna.structures
+package rat.swizko.jna.structures
 
 import com.sun.jna.Structure
 import org.jire.arrowhead.Struct
-import rat.poison.jna.enums.AccentStates
+import rat.swizko.jna.enums.AccentStates
 
 class AccentPolicy : Struct(), Structure.ByReference {
     @JvmField

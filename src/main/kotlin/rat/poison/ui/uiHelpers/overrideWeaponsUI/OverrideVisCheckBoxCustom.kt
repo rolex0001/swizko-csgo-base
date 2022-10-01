@@ -1,12 +1,12 @@
-package rat.poison.ui.uiHelpers.overrideWeaponsUI
+package rat.swizko.ui.uiHelpers.overrideWeaponsUI
 
 import com.kotcrab.vis.ui.widget.VisCheckBox
-import rat.poison.oWeapon
-import rat.poison.toLocale
-import rat.poison.ui.changed
-import rat.poison.ui.uiPanelTables.weaponOverrideSelected
-import rat.poison.ui.uiPanels.overridenWeapons
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.oWeapon
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
+import rat.swizko.ui.uiPanelTables.weaponOverrideSelected
+import rat.swizko.ui.uiPanels.overridenWeapons
+import rat.swizko.utils.generalUtil.strToBool
 
 private val flatAimIdx = getOverrideVarIndex(oWeapon().toString(), "tFlatAim")
 private val pathAimIdx = getOverrideVarIndex(oWeapon().toString(), "tPathAim")

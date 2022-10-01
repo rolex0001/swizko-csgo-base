@@ -1,20 +1,20 @@
-package rat.poison.ui.tabs
+package rat.swizko.ui.tabs
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.scenes.scene2d.ui.Table
 import com.badlogic.gdx.utils.Array
 import com.kotcrab.vis.ui.widget.VisTable
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.overlay.opened
-import rat.poison.toLocale
-import rat.poison.ui.uiHelpers.tables.AimBacktrackTable
-import rat.poison.ui.uiHelpers.tables.AimTable
-import rat.poison.ui.uiHelpers.tables.AimTriggerTable
-import rat.poison.ui.uiPanels.aimTab
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.overlay.opened
+import rat.swizko.toLocale
+import rat.swizko.ui.uiHelpers.tables.AimBacktrackTable
+import rat.swizko.ui.uiHelpers.tables.AimTable
+import rat.swizko.ui.uiHelpers.tables.AimTriggerTable
+import rat.swizko.ui.uiPanels.aimTab
+import rat.swizko.utils.generalUtil.strToBool
 
 
 //val itemsArray = Array<String>()

@@ -1,16 +1,16 @@
-package rat.poison.ui
+package rat.swizko.ui
 
-import rat.poison.overlay.App.uiAimOverridenWeapons
-import rat.poison.overlay.App.uiBombWindow
-import rat.poison.overlay.App.uiKeybinds
-import rat.poison.overlay.App.uiMenu
-import rat.poison.overlay.App.uiSpecList
-import rat.poison.overlay.opened
-import rat.poison.ui.tabs.*
-import rat.poison.ui.tabs.visualstabs.*
-import rat.poison.ui.uiPanelTables.OverridenWeapons
-import rat.poison.ui.uiPanelTables.overridenWeaponsUpdate
-import rat.poison.ui.uiPanels.*
+import rat.swizko.overlay.App.uiAimOverridenWeapons
+import rat.swizko.overlay.App.uiBombWindow
+import rat.swizko.overlay.App.uiKeybinds
+import rat.swizko.overlay.App.uiMenu
+import rat.swizko.overlay.App.uiSpecList
+import rat.swizko.overlay.opened
+import rat.swizko.ui.tabs.*
+import rat.swizko.ui.tabs.visualstabs.*
+import rat.swizko.ui.uiPanelTables.OverridenWeapons
+import rat.swizko.ui.uiPanelTables.overridenWeaponsUpdate
+import rat.swizko.ui.uiPanels.*
 
 var uiRefreshing = false
 

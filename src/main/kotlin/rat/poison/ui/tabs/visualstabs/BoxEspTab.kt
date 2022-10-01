@@ -1,13 +1,13 @@
-package rat.poison.ui.tabs.visualstabs
+package rat.swizko.ui.tabs.visualstabs
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table
 import com.kotcrab.vis.ui.widget.VisTable
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
-import rat.poison.toLocale
-import rat.poison.ui.tabs.boxEspTab
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiHelpers.VisColorPickerCustom
-import rat.poison.ui.uiHelpers.VisSelectBoxCustom
+import rat.swizko.toLocale
+import rat.swizko.ui.tabs.boxEspTab
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.VisColorPickerCustom
+import rat.swizko.ui.uiHelpers.VisSelectBoxCustom
 
 //Swap VisSelectBoxCustom to showText false is mainText is " "
 class BoxEspTab: Tab(false, false) {

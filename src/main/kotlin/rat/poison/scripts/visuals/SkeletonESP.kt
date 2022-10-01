@@ -1,20 +1,20 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.badlogic.gdx.graphics.Color
 import com.sun.jna.Memory
 import org.jire.arrowhead.unsign
-import rat.poison.curSettings
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.entity.*
-import rat.poison.game.forEntities
-import rat.poison.game.me
-import rat.poison.game.worldToScreen
-import rat.poison.overlay.App
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.utils.Vector
-import rat.poison.utils.extensions.uint
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.entity.*
+import rat.swizko.game.forEntities
+import rat.swizko.game.me
+import rat.swizko.game.worldToScreen
+import rat.swizko.overlay.App
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.utils.Vector
+import rat.swizko.utils.extensions.uint
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inGame
 
 private val bones = Array(2048) { Line() }
 private var currentIdx = 0

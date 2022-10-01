@@ -1,17 +1,17 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
-import rat.poison.curSettings
-import rat.poison.game.*
-import rat.poison.game.entity.*
-import rat.poison.overlay.glowTime
-import rat.poison.scripts.aim.findTarget
-import rat.poison.scripts.aim.meCurWep
-import rat.poison.scripts.aim.target
-import rat.poison.scripts.bombState
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.strToColor
+import rat.swizko.curSettings
+import rat.swizko.game.*
+import rat.swizko.game.entity.*
+import rat.swizko.overlay.glowTime
+import rat.swizko.scripts.aim.findTarget
+import rat.swizko.scripts.aim.meCurWep
+import rat.swizko.scripts.aim.target
+import rat.swizko.scripts.bombState
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.strToColor
 import java.util.concurrent.TimeUnit
 import kotlin.system.measureNanoTime
 

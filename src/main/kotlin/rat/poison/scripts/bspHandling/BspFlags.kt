@@ -1,4 +1,4 @@
-package rat.poison.scripts.bspHandling
+package rat.swizko.scripts.bspHandling
 
 const val MAX_BRUSH_LIGHTMAP_DIM_WITHOUT_BORDER   = 32;
 const val MAX_BRUSH_LIGHTMAP_DIM_INCLUDING_BORDER = 35;

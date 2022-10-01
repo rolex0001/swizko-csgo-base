@@ -1,21 +1,21 @@
-package rat.poison.game.entity
+package rat.swizko.game.entity
 
 import com.sun.jna.Memory
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap
 import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.bSpottedByMask
-import rat.poison.game.netvars.NetVarOffsets.dwModel
-import rat.poison.game.netvars.NetVarOffsets.iTeamNum
-import rat.poison.game.netvars.NetVarOffsets.nSurvivalTeam
-import rat.poison.game.netvars.NetVarOffsets.vecOrigin
-import rat.poison.game.netvars.NetVarOffsets.vecViewOffset
-import rat.poison.game.offsets.ClientOffsets.bDormant
-import rat.poison.game.offsets.ClientOffsets.dwIndex
-import rat.poison.game.offsets.ClientOffsets.pStudioHdr
-import rat.poison.utils.Angle
-import rat.poison.utils.extensions.uint
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.bSpottedByMask
+import rat.swizko.game.netvars.NetVarOffsets.dwModel
+import rat.swizko.game.netvars.NetVarOffsets.iTeamNum
+import rat.swizko.game.netvars.NetVarOffsets.nSurvivalTeam
+import rat.swizko.game.netvars.NetVarOffsets.vecOrigin
+import rat.swizko.game.netvars.NetVarOffsets.vecViewOffset
+import rat.swizko.game.offsets.ClientOffsets.bDormant
+import rat.swizko.game.offsets.ClientOffsets.dwIndex
+import rat.swizko.game.offsets.ClientOffsets.pStudioHdr
+import rat.swizko.utils.Angle
+import rat.swizko.utils.extensions.uint
 
 typealias Entity = Long
 

@@ -1,14 +1,14 @@
-package rat.poison.game.entity
+package rat.swizko.game.entity
 
-import rat.poison.game.CSGO.ENTITY_SIZE
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.netvars.NetVarOffsets
-import rat.poison.game.netvars.NetVarOffsets.bBombDefused
-import rat.poison.game.netvars.NetVarOffsets.flC4Blow
-import rat.poison.game.netvars.NetVarOffsets.flDefuseCountDown
-import rat.poison.game.offsets.ClientOffsets.dwEntityList
-import rat.poison.utils.extensions.uint
+import rat.swizko.game.CSGO.ENTITY_SIZE
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.netvars.NetVarOffsets
+import rat.swizko.game.netvars.NetVarOffsets.bBombDefused
+import rat.swizko.game.netvars.NetVarOffsets.flC4Blow
+import rat.swizko.game.netvars.NetVarOffsets.flDefuseCountDown
+import rat.swizko.game.offsets.ClientOffsets.dwEntityList
+import rat.swizko.utils.extensions.uint
 
 typealias Bomb = Long
 

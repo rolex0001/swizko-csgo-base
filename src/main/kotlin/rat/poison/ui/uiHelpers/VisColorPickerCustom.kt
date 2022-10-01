@@ -1,4 +1,4 @@
-package rat.poison.ui.uiHelpers
+package rat.swizko.ui.uiHelpers
 
 import com.badlogic.gdx.graphics.Color
 import com.kotcrab.vis.ui.VisUI
@@ -7,14 +7,14 @@ import com.kotcrab.vis.ui.widget.VisLabel
 import com.kotcrab.vis.ui.widget.VisTable
 import com.kotcrab.vis.ui.widget.color.ColorPicker
 import com.kotcrab.vis.ui.widget.color.ColorPickerAdapter
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.overlay.App
-import rat.poison.toLocale
-import rat.poison.ui.changed
-import rat.poison.utils.generalUtil.strToColor
-import rat.poison.game.Color as rColor
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.overlay.App
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
+import rat.swizko.utils.generalUtil.strToColor
+import rat.swizko.game.Color as rColor
 
 private val white = VisUI.getSkin().getDrawable("white")
 

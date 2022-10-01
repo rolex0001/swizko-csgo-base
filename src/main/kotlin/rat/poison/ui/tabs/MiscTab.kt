@@ -1,4 +1,4 @@
-package rat.poison.ui.tabs
+package rat.swizko.ui.tabs
 
 import com.badlogic.gdx.scenes.scene2d.Touchable
 import com.badlogic.gdx.scenes.scene2d.ui.Table
@@ -7,19 +7,19 @@ import com.badlogic.gdx.utils.Array
 import com.kotcrab.vis.ui.VisUI
 import com.kotcrab.vis.ui.widget.*
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
-import rat.poison.SETTINGS_DIRECTORY
-import rat.poison.curSettings
-import rat.poison.scripts.changeName
-import rat.poison.scripts.selfNade
-import rat.poison.scripts.visuals.updateHitsound
-import rat.poison.toLocale
-import rat.poison.ui.changed
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiHelpers.VisInputFieldCustom
-import rat.poison.ui.uiHelpers.VisSliderCustom
-import rat.poison.ui.uiPanels.miscTab
-import rat.poison.utils.generalUtil.boolToStr
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.SETTINGS_DIRECTORY
+import rat.swizko.curSettings
+import rat.swizko.scripts.changeName
+import rat.swizko.scripts.selfNade
+import rat.swizko.scripts.visuals.updateHitsound
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.VisInputFieldCustom
+import rat.swizko.ui.uiHelpers.VisSliderCustom
+import rat.swizko.ui.uiPanels.miscTab
+import rat.swizko.utils.generalUtil.boolToStr
+import rat.swizko.utils.generalUtil.strToBool
 import java.io.File
 
 class MiscTab : Tab(false, false) {

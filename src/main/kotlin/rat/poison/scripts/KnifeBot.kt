@@ -1,30 +1,30 @@
 @file:Suppress("DEPRECATION")
 
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import com.badlogic.gdx.math.Vector3
 import org.jire.arrowhead.keyReleased
-import rat.poison.curSettings
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.angle
-import rat.poison.game.clientState
-import rat.poison.game.entity.*
-import rat.poison.game.me
-import rat.poison.game.offsets.ClientOffsets.dwForceAttack
-import rat.poison.game.offsets.ClientOffsets.dwForceAttack2
-import rat.poison.overlay.App
-import rat.poison.overlay.opened
-import rat.poison.robot
-import rat.poison.scripts.aim.findTarget
-import rat.poison.scripts.aim.meCurWep
-import rat.poison.scripts.aim.meCurWepEnt
-import rat.poison.scripts.aim.meDead
-import rat.poison.settings.AIM_KEY
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.utils.Vector
-import rat.poison.utils.distanceTo
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.angle
+import rat.swizko.game.clientState
+import rat.swizko.game.entity.*
+import rat.swizko.game.me
+import rat.swizko.game.offsets.ClientOffsets.dwForceAttack
+import rat.swizko.game.offsets.ClientOffsets.dwForceAttack2
+import rat.swizko.overlay.App
+import rat.swizko.overlay.opened
+import rat.swizko.robot
+import rat.swizko.scripts.aim.findTarget
+import rat.swizko.scripts.aim.meCurWep
+import rat.swizko.scripts.aim.meCurWepEnt
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.settings.AIM_KEY
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.utils.Vector
+import rat.swizko.utils.distanceTo
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
 import java.awt.event.MouseEvent
 
 private const val SwingDistance = 96f

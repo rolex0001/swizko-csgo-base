@@ -1,22 +1,22 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.badlogic.gdx.graphics.GL20
 import com.badlogic.gdx.math.MathUtils.clamp
 import com.badlogic.gdx.math.Matrix4
 import org.lwjgl.opengl.GL11.glEnable
-import rat.poison.curSettings
-import rat.poison.game.angle
-import rat.poison.game.clientState
-import rat.poison.game.entity.onGround
-import rat.poison.game.entity.position
-import rat.poison.game.me
-import rat.poison.game.w2sViewMatrix
-import rat.poison.overlay.App
-import rat.poison.scripts.aim.meDead
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.strToColorGDX
-import rat.poison.utils.generalUtil.toMatrix4
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.angle
+import rat.swizko.game.clientState
+import rat.swizko.game.entity.onGround
+import rat.swizko.game.entity.position
+import rat.swizko.game.me
+import rat.swizko.game.w2sViewMatrix
+import rat.swizko.overlay.App
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.strToColorGDX
+import rat.swizko.utils.generalUtil.toMatrix4
+import rat.swizko.utils.inGame
 import kotlin.math.abs
 
 fun headLevelHelper() = App {

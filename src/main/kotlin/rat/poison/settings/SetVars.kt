@@ -1,4 +1,4 @@
-package rat.poison.settings
+package rat.swizko.settings
 
 import com.sun.jna.platform.win32.WinNT
 

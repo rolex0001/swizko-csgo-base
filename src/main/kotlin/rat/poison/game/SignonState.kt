@@ -1,6 +1,6 @@
-package rat.poison.game
+package rat.swizko.game
 
-import rat.poison.utils.extensions.EnumLookUpWithDefault
+import rat.swizko.utils.extensions.EnumLookUpWithDefault
 
 @Suppress("unused")
 enum class SignOnState {

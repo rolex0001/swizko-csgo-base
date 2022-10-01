@@ -1,7 +1,7 @@
-package rat.poison.game
+package rat.swizko.game
 
-import rat.poison.game.entity.Entity
-import rat.poison.game.entity.EntityType
+import rat.swizko.game.entity.Entity
+import rat.swizko.game.entity.EntityType
 
 data class EntityContext(var entity: Entity = -1, var glowAddress: Entity = -1,
                          var glowIndex: Int = -1, var type: EntityType = EntityType.NULL) {

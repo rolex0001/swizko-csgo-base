@@ -1,4 +1,4 @@
-package rat.poison.ui.uiPanelTables
+package rat.swizko.ui.uiPanelTables
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.utils.Align
@@ -7,19 +7,19 @@ import com.kotcrab.vis.ui.widget.CollapsibleWidget
 import com.kotcrab.vis.ui.widget.VisLabel
 import com.kotcrab.vis.ui.widget.VisSelectBox
 import com.kotcrab.vis.ui.widget.VisTable
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.settings.*
-import rat.poison.toLocale
-import rat.poison.ui.changed
-import rat.poison.ui.tabs.*
-import rat.poison.ui.uiHelpers.overrideWeaponsUI.OverrideVisCheckBoxCustom
-import rat.poison.ui.uiHelpers.overrideWeaponsUI.OverrideVisSliderCustom
-import rat.poison.ui.uiPanels.overridenWeapons
-import rat.poison.ui.uiUpdate
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.toWeaponClass
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.settings.*
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
+import rat.swizko.ui.tabs.*
+import rat.swizko.ui.uiHelpers.overrideWeaponsUI.OverrideVisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.overrideWeaponsUI.OverrideVisSliderCustom
+import rat.swizko.ui.uiPanels.overridenWeapons
+import rat.swizko.ui.uiUpdate
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.toWeaponClass
 
 var weaponOverrideSelected = "DESERT_EAGLE"
 

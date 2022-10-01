@@ -1,6 +1,6 @@
 ////Courtesy of Mr Noad
 
-package rat.poison.utils.extensions
+package rat.swizko.utils.extensions
 
 import com.badlogic.gdx.utils.StringBuilder as LibgdxStringBuilder
 

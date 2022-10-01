@@ -1,16 +1,16 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
-import rat.poison.curSettings
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.entity.isScoped
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.m_iDefaultFov
-import rat.poison.game.netvars.NetVarOffsets.m_zoomLevel
-import rat.poison.overlay.App
-import rat.poison.scripts.aim.meCurWep
-import rat.poison.scripts.aim.meCurWepEnt
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.entity.isScoped
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.m_iDefaultFov
+import rat.swizko.game.netvars.NetVarOffsets.m_zoomLevel
+import rat.swizko.overlay.App
+import rat.swizko.scripts.aim.meCurWep
+import rat.swizko.scripts.aim.meCurWepEnt
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inGame
 
 internal fun fovChanger() = App {
     if (!inGame) return@App

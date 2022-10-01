@@ -1,28 +1,28 @@
-package rat.poison.ui.uiHelpers.tables
+package rat.swizko.ui.uiHelpers.tables
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.utils.Array
 import com.kotcrab.vis.ui.widget.*
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.toLocale
-import rat.poison.ui.changed
-import rat.poison.ui.tabs.categorySelected
-import rat.poison.ui.tabs.gunCategories
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiHelpers.VisInputFieldCustom
-import rat.poison.ui.uiHelpers.VisSelectBoxCustom
-import rat.poison.ui.uiHelpers.VisSliderCustom
-import rat.poison.ui.uiHelpers.aimTab.ATabVisCheckBox
-import rat.poison.ui.uiHelpers.aimTab.ATabVisSlider
-import rat.poison.ui.uiPanelTables.weaponOverrideSelected
-import rat.poison.ui.uiPanels.aimTab
-import rat.poison.ui.uiPanels.overridenWeapons
-import rat.poison.ui.uiUpdate
-import rat.poison.utils.generalUtil.boolToStr
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.toWeaponClass
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
+import rat.swizko.ui.tabs.categorySelected
+import rat.swizko.ui.tabs.gunCategories
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.VisInputFieldCustom
+import rat.swizko.ui.uiHelpers.VisSelectBoxCustom
+import rat.swizko.ui.uiHelpers.VisSliderCustom
+import rat.swizko.ui.uiHelpers.aimTab.ATabVisCheckBox
+import rat.swizko.ui.uiHelpers.aimTab.ATabVisSlider
+import rat.swizko.ui.uiPanelTables.weaponOverrideSelected
+import rat.swizko.ui.uiPanels.aimTab
+import rat.swizko.ui.uiPanels.overridenWeapons
+import rat.swizko.ui.uiUpdate
+import rat.swizko.utils.generalUtil.boolToStr
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.toWeaponClass
 
 class AimTable: VisTable(false) {
     //Init labels/sliders/boxes that show values here

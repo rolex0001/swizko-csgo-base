@@ -1,18 +1,18 @@
-package rat.poison.ui.tabs
+package rat.swizko.ui.tabs
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.scenes.scene2d.ui.Table
 import com.kotcrab.vis.ui.widget.VisTable
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
-import rat.poison.curSettings
-import rat.poison.overlay.opened
-import rat.poison.toLocale
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiHelpers.VisColorPickerCustom
-import rat.poison.ui.uiHelpers.VisSelectBoxCustom
-import rat.poison.ui.uiHelpers.VisSliderCustom
-import rat.poison.ui.uiPanels.rcsTab
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.overlay.opened
+import rat.swizko.toLocale
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.VisColorPickerCustom
+import rat.swizko.ui.uiHelpers.VisSelectBoxCustom
+import rat.swizko.ui.uiHelpers.VisSliderCustom
+import rat.swizko.ui.uiPanels.rcsTab
+import rat.swizko.utils.generalUtil.strToBool
 
 class RcsTab : Tab(false, false) {
     private val table = VisTable(false)

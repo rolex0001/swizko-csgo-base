@@ -1,12 +1,12 @@
-package rat.poison.game
+package rat.swizko.game
 
-import rat.poison.curSettings
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.CSGO.gameHeight
-import rat.poison.game.CSGO.gameWidth
-import rat.poison.game.offsets.ClientOffsets.dwViewMatrix
-import rat.poison.utils.Vector
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.CSGO.gameHeight
+import rat.swizko.game.CSGO.gameWidth
+import rat.swizko.game.offsets.ClientOffsets.dwViewMatrix
+import rat.swizko.utils.Vector
+import rat.swizko.utils.generalUtil.strToBool
 
 val w2sViewMatrix = Array(4) { DoubleArray(4) }
 

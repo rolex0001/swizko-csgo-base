@@ -1,5 +1,5 @@
 @file:Suppress("DEPRECATION")
-package rat.poison.overlay
+package rat.swizko.overlay
 
 import com.badlogic.gdx.ApplicationAdapter
 import com.badlogic.gdx.Gdx
@@ -16,24 +16,24 @@ import com.kotcrab.vis.ui.VisUI
 import com.sun.management.OperatingSystemMXBean
 import it.unimi.dsi.fastutil.objects.ObjectArrayList
 import org.jire.arrowhead.keyPressed
-import rat.poison.*
-import rat.poison.game.CSGO
-import rat.poison.game.me
-import rat.poison.game.updateViewMatrix
-import rat.poison.interfaces.IOverlay
-import rat.poison.interfaces.IOverlayListener
-import rat.poison.jna.enums.AccentStates
-import rat.poison.scripts.aim.meDead
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.settings.MENUTOG
-import rat.poison.ui.uiPanels.*
-import rat.poison.ui.uiUpdate
-import rat.poison.utils.ObservableBoolean
-import rat.poison.utils.extensions.appendHumanReadableSize
-import rat.poison.utils.extensions.roundNDecimals
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inGame
-import rat.poison.utils.shouldPostProcess
+import rat.swizko.*
+import rat.swizko.game.CSGO
+import rat.swizko.game.me
+import rat.swizko.game.updateViewMatrix
+import rat.swizko.interfaces.IOverlay
+import rat.swizko.interfaces.IOverlayListener
+import rat.swizko.jna.enums.AccentStates
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.settings.MENUTOG
+import rat.swizko.ui.uiPanels.*
+import rat.swizko.ui.uiUpdate
+import rat.swizko.utils.ObservableBoolean
+import rat.swizko.utils.extensions.appendHumanReadableSize
+import rat.swizko.utils.extensions.roundNDecimals
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inGame
+import rat.swizko.utils.shouldPostProcess
 import java.lang.management.ManagementFactory
 import java.util.concurrent.TimeUnit
 import kotlin.math.max
@@ -55,7 +55,7 @@ object App : ApplicationAdapter() {
     lateinit var sb: SpriteBatch
     lateinit var textRenderer: BitmapFont
     lateinit var shapeRenderer: ShapeRenderer
-    private val overlay = Overlay(if (appless) { DEFAULT_MENU_APP } else { MENU_APP }, "Rat Poison UI", AccentStates.ACCENT_ENABLE_BLURBEHIND)
+    private val overlay = Overlay(if (appless) { DEFAULT_MENU_APP } else { MENU_APP }, "Rat swizko UI", AccentStates.ACCENT_ENABLE_BLURBEHIND)
     lateinit var menuStage: Stage
     private val bodies = ObjectArrayList<App.() -> Unit>()
     private lateinit var camera: OrthographicCamera

@@ -1,4 +1,4 @@
-package rat.poison.utils.extensions
+package rat.swizko.utils.extensions
 
 internal fun ByteArray.toNetVarString(): String {
 	for (i in 0..size - 1) if (0.toByte() == this[i]) this[i] = 32

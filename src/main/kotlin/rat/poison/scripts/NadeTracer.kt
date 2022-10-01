@@ -1,20 +1,20 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import com.badlogic.gdx.graphics.GL20
 import com.badlogic.gdx.math.MathUtils.clamp
 import org.lwjgl.opengl.GL11.glDisable
 import org.lwjgl.opengl.GL11.glEnable
-import rat.poison.curSettings
-import rat.poison.game.entity.EntityType
-import rat.poison.game.entity.absPosition
-import rat.poison.game.forEntities
-import rat.poison.game.worldToScreen
-import rat.poison.overlay.App
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.Vector
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.strToColorGDX
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.entity.EntityType
+import rat.swizko.game.entity.absPosition
+import rat.swizko.game.forEntities
+import rat.swizko.game.worldToScreen
+import rat.swizko.overlay.App
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.Vector
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.strToColorGDX
+import rat.swizko.utils.inGame
 import java.util.concurrent.ConcurrentLinkedQueue
 
 val grenadeList = ConcurrentLinkedQueue<Long>()

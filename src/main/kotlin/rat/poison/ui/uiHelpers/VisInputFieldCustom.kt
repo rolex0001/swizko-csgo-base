@@ -1,15 +1,15 @@
-package rat.poison.ui.uiHelpers
+package rat.swizko.ui.uiHelpers
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.scenes.scene2d.Actor
 import com.kotcrab.vis.ui.util.Validators
 import com.kotcrab.vis.ui.widget.*
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.ui.changed
-import rat.poison.ui.uiPanels.keybindsUpdate
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.ui.changed
+import rat.swizko.ui.uiPanels.keybindsUpdate
+import rat.swizko.utils.generalUtil.strToBool
 
 class VisInputFieldCustom(mainText: String, varName: String, addLink: Boolean = true, keyWidth: Float = 200F) : VisTable() {
     private val textLabel = mainText

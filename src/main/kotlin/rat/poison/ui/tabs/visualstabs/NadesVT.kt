@@ -1,14 +1,14 @@
-package rat.poison.ui.tabs.visualstabs
+package rat.swizko.ui.tabs.visualstabs
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table
 import com.kotcrab.vis.ui.widget.VisTable
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
-import rat.poison.curSettings
-import rat.poison.toLocale
-import rat.poison.ui.tabs.nadesTab
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiHelpers.VisColorPickerCustom
-import rat.poison.ui.uiHelpers.VisSliderCustom
+import rat.swizko.curSettings
+import rat.swizko.toLocale
+import rat.swizko.ui.tabs.nadesTab
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.VisColorPickerCustom
+import rat.swizko.ui.uiHelpers.VisSliderCustom
 
 class NadesVT : Tab(false, false) {
     private val table = VisTable()

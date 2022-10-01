@@ -1,14 +1,14 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
-import rat.poison.curSettings
-import rat.poison.game.entity.*
-import rat.poison.game.forEntities
-import rat.poison.game.me
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.utils.Vector
-import rat.poison.utils.distanceTo
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.entity.*
+import rat.swizko.game.forEntities
+import rat.swizko.game.me
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.utils.Vector
+import rat.swizko.utils.distanceTo
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
 
 internal fun radarEsp() = every(100, inGameCheck = true) {
     if (!curSettings["RADAR_ESP"].strToBool() || DANGER_ZONE) return@every
