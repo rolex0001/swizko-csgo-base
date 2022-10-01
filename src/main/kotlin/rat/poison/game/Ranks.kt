@@ -1,4 +1,4 @@
-package rat.poison.game
+package rat.swizko.game
 
 enum class Ranks(val id: Int, val str: String = "") {
     NONE(0, "N/A"),

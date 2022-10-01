@@ -1,15 +1,15 @@
-package rat.poison.ui.uiHelpers
+package rat.swizko.ui.uiHelpers
 
 import com.badlogic.gdx.graphics.Color
 import com.kotcrab.vis.ui.widget.Tooltip
 import com.kotcrab.vis.ui.widget.VisLabel
 import com.kotcrab.vis.ui.widget.VisSlider
 import com.kotcrab.vis.ui.widget.VisTable
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.ui.changed
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.ui.changed
+import rat.swizko.utils.generalUtil.strToBool
 import kotlin.math.pow
 import kotlin.math.round
 

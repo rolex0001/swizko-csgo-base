@@ -1,14 +1,14 @@
-package rat.poison.ui.uiPanels
+package rat.swizko.ui.uiPanels
 
 import com.badlogic.gdx.scenes.scene2d.Actor
 import com.badlogic.gdx.utils.Align
 import com.kotcrab.vis.ui.widget.VisSlider
 import com.kotcrab.vis.ui.widget.VisWindow
-import rat.poison.curSettings
-import rat.poison.overlay.App.uiKeybinds
-import rat.poison.toLocale
-import rat.poison.ui.changed
-import rat.poison.ui.uiHelpers.VisInputFieldCustom
+import rat.swizko.curSettings
+import rat.swizko.overlay.App.uiKeybinds
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
+import rat.swizko.ui.uiHelpers.VisInputFieldCustom
 import kotlin.math.round
 
 class UIKeybinds : VisWindow("Keybinds".toLocale()) {

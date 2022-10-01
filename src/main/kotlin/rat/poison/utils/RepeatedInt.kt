@@ -1,4 +1,4 @@
-package rat.poison.utils
+package rat.swizko.utils
 
 data class RepeatedInt(val value: Int, val repeats: Int)
 

@@ -1,6 +1,6 @@
-package rat.poison.utils
+package rat.swizko.utils
 
-import rat.poison.utils.generalUtil.toInt
+import rat.swizko.utils.generalUtil.toInt
 import java.util.concurrent.ThreadLocalRandom.current as tlr
 
 fun randDouble(min: Double, max: Double) = tlr().nextDouble(min, max)

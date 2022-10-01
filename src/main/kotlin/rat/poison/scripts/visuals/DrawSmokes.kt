@@ -1,18 +1,18 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
-import rat.poison.curSettings
-import rat.poison.game.*
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.entity.*
-import rat.poison.game.forEntities
-import rat.poison.game.netvars.NetVarOffsets.bDidSmokeEffect
-import rat.poison.overlay.App
-import rat.poison.overlay.App.shapeRenderer
-import rat.poison.utils.Vector
-import rat.poison.utils.distanceTo
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.strToColorGDX
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.*
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.entity.*
+import rat.swizko.game.forEntities
+import rat.swizko.game.netvars.NetVarOffsets.bDidSmokeEffect
+import rat.swizko.overlay.App
+import rat.swizko.overlay.App.shapeRenderer
+import rat.swizko.utils.Vector
+import rat.swizko.utils.distanceTo
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.strToColorGDX
+import rat.swizko.utils.inGame
 import kotlin.math.cos
 import kotlin.math.sin
 

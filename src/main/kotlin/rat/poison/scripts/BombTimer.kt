@@ -1,23 +1,23 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer
 import com.badlogic.gdx.utils.Align
-import rat.poison.curSettings
-import rat.poison.game.CSGO
-import rat.poison.game.entity.*
-import rat.poison.game.entityByType
-import rat.poison.game.me
-import rat.poison.game.offsets.ClientOffsets.dwUse
-import rat.poison.game.offsets.EngineOffsets
-import rat.poison.overlay.App
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.toLocale
-import rat.poison.ui.uiPanels.bombText
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.toInt
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO
+import rat.swizko.game.entity.*
+import rat.swizko.game.entityByType
+import rat.swizko.game.me
+import rat.swizko.game.offsets.ClientOffsets.dwUse
+import rat.swizko.game.offsets.EngineOffsets
+import rat.swizko.overlay.App
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.toLocale
+import rat.swizko.ui.uiPanels.bombText
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.toInt
+import rat.swizko.utils.inGame
 
 //ent_create planted_c4_training
 //ent_fire planted_c4_training ActivateSetTimerLength 20

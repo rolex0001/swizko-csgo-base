@@ -1,11 +1,11 @@
-package rat.poison.ui.uiPanels
+package rat.swizko.ui.uiPanels
 
 import com.kotcrab.vis.ui.widget.VisLabel
 import com.kotcrab.vis.ui.widget.VisSlider
 import com.kotcrab.vis.ui.widget.VisWindow
-import rat.poison.curSettings
-import rat.poison.toLocale
-import rat.poison.ui.changed
+import rat.swizko.curSettings
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
 import kotlin.math.round
 
 lateinit var specListText : VisLabel

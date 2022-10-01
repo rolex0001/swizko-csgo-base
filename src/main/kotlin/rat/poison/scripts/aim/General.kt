@@ -1,12 +1,12 @@
-package rat.poison.scripts.aim
+package rat.swizko.scripts.aim
 
 import org.jire.arrowhead.keyPressed
-import rat.poison.curSettings
-import rat.poison.game.*
-import rat.poison.game.entity.*
-import rat.poison.settings.*
-import rat.poison.utils.*
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.*
+import rat.swizko.game.entity.*
+import rat.swizko.settings.*
+import rat.swizko.utils.*
+import rat.swizko.utils.generalUtil.strToBool
 import java.lang.Math.toRadians
 import kotlin.math.abs
 import kotlin.math.pow

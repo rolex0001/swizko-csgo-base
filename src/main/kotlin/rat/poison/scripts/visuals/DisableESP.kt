@@ -1,15 +1,15 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
-import rat.poison.game.CSGO
-import rat.poison.game.Color
-import rat.poison.game.entity.EntityType
-import rat.poison.game.forEntities
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets
-import rat.poison.game.offsets.ClientOffsets
-import rat.poison.game.offsets.EngineOffsets
-import rat.poison.utils.extensions.uint
-import rat.poison.utils.inGame
+import rat.swizko.game.CSGO
+import rat.swizko.game.Color
+import rat.swizko.game.entity.EntityType
+import rat.swizko.game.forEntities
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets
+import rat.swizko.game.offsets.ClientOffsets
+import rat.swizko.game.offsets.EngineOffsets
+import rat.swizko.utils.extensions.uint
+import rat.swizko.utils.inGame
 import java.lang.Float.floatToIntBits
 
 //Change to construct entities at call to prevent crashing?

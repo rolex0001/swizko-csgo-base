@@ -1,11 +1,11 @@
-package rat.poison.ui.uiPanels
+package rat.swizko.ui.uiPanels
 
 import com.badlogic.gdx.utils.Align
 import com.kotcrab.vis.ui.widget.VisWindow
-import rat.poison.overlay.App.uiMenu
-import rat.poison.overlay.opened
-import rat.poison.toLocale
-import rat.poison.ui.uiPanelTables.OverridenWeapons
+import rat.swizko.overlay.App.uiMenu
+import rat.swizko.overlay.opened
+import rat.swizko.toLocale
+import rat.swizko.ui.uiPanelTables.OverridenWeapons
 
 var overridenWeapons = OverridenWeapons()
 

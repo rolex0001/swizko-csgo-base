@@ -1,15 +1,15 @@
-package rat.poison.ui.uiHelpers.aimTab
+package rat.swizko.ui.uiHelpers.aimTab
 
 import com.kotcrab.vis.ui.widget.VisCheckBox
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.ui.changed
-import rat.poison.ui.tabs.categorySelected
-import rat.poison.ui.tabs.updateDisableAim
-import rat.poison.ui.uiUpdate
-import rat.poison.utils.generalUtil.boolToStr
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.ui.changed
+import rat.swizko.ui.tabs.categorySelected
+import rat.swizko.ui.tabs.updateDisableAim
+import rat.swizko.ui.uiUpdate
+import rat.swizko.utils.generalUtil.boolToStr
+import rat.swizko.utils.generalUtil.strToBool
 
 class ATabVisCheckBox(text: String, varExtension: String) : VisCheckBox(text) {
     private val mainText = text

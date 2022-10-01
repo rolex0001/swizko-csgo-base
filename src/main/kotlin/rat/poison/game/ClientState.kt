@@ -1,8 +1,8 @@
-package rat.poison.game
+package rat.swizko.game
 
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.offsets.EngineOffsets.dwViewAngles
-import rat.poison.utils.Angle
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.offsets.EngineOffsets.dwViewAngles
+import rat.swizko.utils.Angle
 
 typealias ClientState = Long
 

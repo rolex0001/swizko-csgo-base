@@ -1,8 +1,8 @@
-package rat.poison.utils.generalUtil
+package rat.swizko.utils.generalUtil
 
 import com.badlogic.gdx.math.Vector3
-import rat.poison.utils.Angle
-import rat.poison.utils.Vector
+import rat.swizko.utils.Angle
+import rat.swizko.utils.Vector
 
 operator fun Vector3.minus(v: Vector3): Vector3 {
     x - v.x

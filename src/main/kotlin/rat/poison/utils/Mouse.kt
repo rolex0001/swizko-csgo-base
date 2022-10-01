@@ -1,6 +1,6 @@
-package rat.poison.utils
+package rat.swizko.utils
 
-import rat.poison.utils.natives.CUser32.mouse_event
+import rat.swizko.utils.natives.CUser32.mouse_event
 
 const val MOUSEEVENTF_ABSOLUTE = 0x8000
 const val MOUSEEVENTF_MOVE = 0x0001

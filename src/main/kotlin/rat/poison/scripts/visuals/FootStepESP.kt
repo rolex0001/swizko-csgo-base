@@ -1,20 +1,20 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.badlogic.gdx.math.Matrix4
 import com.badlogic.gdx.utils.Align
-import rat.poison.*
-import rat.poison.game.entity.*
-import rat.poison.game.forEntities
-import rat.poison.game.me
-import rat.poison.game.w2sViewMatrix
-import rat.poison.game.worldToScreen
-import rat.poison.overlay.App
-import rat.poison.utils.Vector
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.cToFloat
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.strToColorGDX
-import rat.poison.utils.generalUtil.toMatrix4
+import rat.swizko.*
+import rat.swizko.game.entity.*
+import rat.swizko.game.forEntities
+import rat.swizko.game.me
+import rat.swizko.game.w2sViewMatrix
+import rat.swizko.game.worldToScreen
+import rat.swizko.overlay.App
+import rat.swizko.utils.Vector
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.cToFloat
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.strToColorGDX
+import rat.swizko.utils.generalUtil.toMatrix4
 import kotlin.math.pow
 import kotlin.math.sqrt
 

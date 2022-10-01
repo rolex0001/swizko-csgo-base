@@ -1,4 +1,4 @@
-package rat.poison.ui
+package rat.swizko.ui
 
 import com.badlogic.gdx.scenes.scene2d.Actor
 import com.kotcrab.vis.ui.widget.VisTable

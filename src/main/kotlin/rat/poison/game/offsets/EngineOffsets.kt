@@ -1,8 +1,8 @@
-package rat.poison.game.offsets
+package rat.swizko.game.offsets
 
-import rat.poison.game.CSGO.engineDLL
-import rat.poison.utils.extensions.invoke
-import rat.poison.utils.get
+import rat.swizko.game.CSGO.engineDLL
+import rat.swizko.utils.extensions.invoke
+import rat.swizko.utils.get
 
 object EngineOffsets {
 

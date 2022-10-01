@@ -1,19 +1,19 @@
-package rat.poison.scripts.aim
+package rat.swizko.scripts.aim
 
 import org.jire.arrowhead.keyPressed
-import rat.poison.curSettings
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.entity.*
-import rat.poison.game.hooks.cursorEnable
-import rat.poison.game.hooks.updateCursorEnable
-import rat.poison.game.me
-import rat.poison.game.offsets.ClientOffsets.dwForceAttack
-import rat.poison.scripts.*
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inBackground
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.entity.*
+import rat.swizko.game.hooks.cursorEnable
+import rat.swizko.game.hooks.updateCursorEnable
+import rat.swizko.game.me
+import rat.swizko.game.offsets.ClientOffsets.dwForceAttack
+import rat.swizko.scripts.*
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inBackground
+import rat.swizko.utils.inGame
 
 private var shouldShoot = false
 var didShoot = false

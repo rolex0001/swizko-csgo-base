@@ -1,16 +1,16 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer
-import rat.poison.curSettings
-import rat.poison.game.*
-import rat.poison.game.entity.*
-import rat.poison.overlay.App
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.utils.Vector
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.strToColor
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.*
+import rat.swizko.game.entity.*
+import rat.swizko.overlay.App
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.utils.Vector
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.strToColor
+import rat.swizko.utils.inGame
 
 //TODO god fix this eventually g
 fun snapLines() = App {

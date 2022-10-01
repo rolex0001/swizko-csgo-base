@@ -1,12 +1,12 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import com.badlogic.gdx.math.MathUtils.clamp
-import rat.poison.curSettings
-import rat.poison.game.hooks.cursorEnable
-import rat.poison.game.hooks.updateCursorEnable
-import rat.poison.scripts.aim.meCurWep
-import rat.poison.scripts.aim.meDead
-import rat.poison.settings.MENUTOG
+import rat.swizko.curSettings
+import rat.swizko.game.hooks.cursorEnable
+import rat.swizko.game.hooks.updateCursorEnable
+import rat.swizko.scripts.aim.meCurWep
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.settings.MENUTOG
 
 var punchCheck = 0
 

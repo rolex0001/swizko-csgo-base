@@ -1,10 +1,10 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import com.sun.jna.Memory
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.clientState
-import rat.poison.utils.every
-import rat.poison.utils.extensions.uint
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.clientState
+import rat.swizko.utils.every
+import rat.swizko.utils.extensions.uint
 
 var nameChange = ""
 

@@ -1,7 +1,7 @@
-package rat.poison.ui.uiHelpers.overrideWeaponsUI
+package rat.swizko.ui.uiHelpers.overrideWeaponsUI
 
-import rat.poison.curSettings
-import rat.poison.utils.generalUtil.pull
+import rat.swizko.curSettings
+import rat.swizko.utils.generalUtil.pull
 
 fun splitOverrideString(curWep: String): MutableList<String> {
     var tStr = curWep

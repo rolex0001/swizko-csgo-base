@@ -1,15 +1,15 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.badlogic.gdx.Gdx
 import com.badlogic.gdx.audio.Sound
-import rat.poison.SETTINGS_DIRECTORY
-import rat.poison.curSettings
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.m_totalHitsOnServer
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.SETTINGS_DIRECTORY
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.m_totalHitsOnServer
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
 
 private var totalHits = 0
 private var opened = false

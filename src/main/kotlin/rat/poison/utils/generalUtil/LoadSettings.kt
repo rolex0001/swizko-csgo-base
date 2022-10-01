@@ -1,9 +1,9 @@
-package rat.poison.utils.generalUtil
+package rat.swizko.utils.generalUtil
 
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.settingsLoaded
-import rat.poison.utils.Settings
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.settingsLoaded
+import rat.swizko.utils.Settings
 import java.io.File
 import java.io.FileReader
 import kotlin.text.Charsets.UTF_8

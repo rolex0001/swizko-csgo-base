@@ -1,4 +1,4 @@
-package rat.poison.game
+package rat.swizko.game
 
 @Suppress("unused")
 enum class Weapons(val id: Int, val gun: Boolean = false, val automatic: Boolean = false, val grenade: Boolean = false,

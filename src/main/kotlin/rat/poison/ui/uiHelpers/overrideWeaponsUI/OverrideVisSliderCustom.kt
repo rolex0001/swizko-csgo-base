@@ -1,15 +1,15 @@
-package rat.poison.ui.uiHelpers.overrideWeaponsUI
+package rat.swizko.ui.uiHelpers.overrideWeaponsUI
 
 import com.badlogic.gdx.graphics.Color
 import com.kotcrab.vis.ui.widget.VisLabel
 import com.kotcrab.vis.ui.widget.VisSlider
 import com.kotcrab.vis.ui.widget.VisTable
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.oWeapon
-import rat.poison.ui.changed
-import rat.poison.ui.uiPanelTables.weaponOverrideSelected
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.oWeapon
+import rat.swizko.ui.changed
+import rat.swizko.ui.uiPanelTables.weaponOverrideSelected
 import kotlin.math.pow
 import kotlin.math.round
 

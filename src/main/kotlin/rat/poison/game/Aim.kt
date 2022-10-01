@@ -1,15 +1,15 @@
-package rat.poison.game
+package rat.swizko.game
 
 import com.badlogic.gdx.math.MathUtils.clamp
-import rat.poison.curSettings
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.entity.Player
-import rat.poison.game.entity.position
-import rat.poison.game.entity.punch
-import rat.poison.game.netvars.NetVarOffsets.vecViewOffset
-import rat.poison.utils.*
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.toInt
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.entity.Player
+import rat.swizko.game.entity.position
+import rat.swizko.game.entity.punch
+import rat.swizko.game.netvars.NetVarOffsets.vecViewOffset
+import rat.swizko.utils.*
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.toInt
 import java.lang.Math.toDegrees
 import kotlin.math.atan
 import kotlin.math.atan2

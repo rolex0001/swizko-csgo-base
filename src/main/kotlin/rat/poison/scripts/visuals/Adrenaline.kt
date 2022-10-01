@@ -1,16 +1,16 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.badlogic.gdx.math.MathUtils
-import rat.poison.curSettings
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.m_flHealthShotBoostExpirationTime
-import rat.poison.game.netvars.NetVarOffsets.m_totalHitsOnServer
-import rat.poison.scripts.aim.meDead
-import rat.poison.scripts.bombState
-import rat.poison.scripts.currentGameTicks
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.m_flHealthShotBoostExpirationTime
+import rat.swizko.game.netvars.NetVarOffsets.m_totalHitsOnServer
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.scripts.bombState
+import rat.swizko.scripts.currentGameTicks
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
 
 private var totalHits = 0
 private var fl = 0F

@@ -1,4 +1,4 @@
-package rat.poison.game.netvars
+package rat.swizko.game.netvars
 
 object NetVarOffsets {
 	

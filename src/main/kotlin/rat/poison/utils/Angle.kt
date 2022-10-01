@@ -1,4 +1,4 @@
-package rat.poison.utils
+package rat.swizko.utils
 
 import com.badlogic.gdx.math.MathUtils
 import com.badlogic.gdx.math.Matrix4

@@ -1,23 +1,23 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.graphics.GL20
 import org.lwjgl.opengl.GL11.glEnable
-import rat.poison.curSettings
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.entity.*
-import rat.poison.game.forEntities
-import rat.poison.game.me
-import rat.poison.game.offsets.ClientOffsets
-import rat.poison.game.offsets.ClientOffsets.dwRadarBase
-import rat.poison.game.worldToScreen
-import rat.poison.overlay.App
-import rat.poison.scripts.aim.meDead
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.utils.Vector
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.entity.*
+import rat.swizko.game.forEntities
+import rat.swizko.game.me
+import rat.swizko.game.offsets.ClientOffsets
+import rat.swizko.game.offsets.ClientOffsets.dwRadarBase
+import rat.swizko.game.worldToScreen
+import rat.swizko.overlay.App
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.utils.Vector
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inGame
 import kotlin.math.abs
 
 data class FarPlayer(val pos: Vector = Vector(), var alpha: Float = 0F)

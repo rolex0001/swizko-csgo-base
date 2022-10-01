@@ -1,11 +1,11 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
-import rat.poison.curSettings
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.hooks.onFlash
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.flFlashMaxAlpha
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.hooks.onFlash
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.flFlashMaxAlpha
+import rat.swizko.utils.generalUtil.strToBool
 
 fun reducedFlash() = onFlash {
 	if (!curSettings["ENABLE_REDUCED_FLASH"].strToBool()) return@onFlash

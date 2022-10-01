@@ -1,16 +1,16 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.sun.jna.Memory
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.Color
-import rat.poison.game.entity.Entity
-import rat.poison.game.entity.EntityType
-import rat.poison.game.netvars.NetVarOffsets
-import rat.poison.utils.extensions.uint
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.toInt
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.Color
+import rat.swizko.game.entity.Entity
+import rat.swizko.game.entity.EntityType
+import rat.swizko.game.netvars.NetVarOffsets
+import rat.swizko.utils.extensions.uint
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.toInt
 
 var espTARGET = -1L
 

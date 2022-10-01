@@ -1,9 +1,9 @@
 ////Courtesy of Mr Noad
 
-package rat.poison.jna.structures
+package rat.swizko.jna.structures
 
 import com.sun.jna.Structure
-import rat.poison.utils.DisposableMemory
+import rat.swizko.utils.DisposableMemory
 
 class Rect : DisposableMemory(16), Structure.ByReference {
     /** The left.  */

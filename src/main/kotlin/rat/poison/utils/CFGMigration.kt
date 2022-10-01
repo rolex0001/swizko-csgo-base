@@ -1,6 +1,6 @@
-package rat.poison.utils
+package rat.swizko.utils
 
-import rat.poison.SETTINGS_DIRECTORY
+import rat.swizko.SETTINGS_DIRECTORY
 import java.io.File
 
 fun loadMigration() {

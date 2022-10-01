@@ -1,16 +1,16 @@
-package rat.poison.scripts.aim
+package rat.swizko.scripts.aim
 
-import rat.poison.curSettings
-import rat.poison.game.Weapons
-import rat.poison.game.entity.weapon
-import rat.poison.game.entity.weaponEntity
-import rat.poison.game.me
-import rat.poison.oWeapon
-import rat.poison.settings.*
-import rat.poison.settingsLoaded
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.toWeaponClass
+import rat.swizko.curSettings
+import rat.swizko.game.Weapons
+import rat.swizko.game.entity.weapon
+import rat.swizko.game.entity.weaponEntity
+import rat.swizko.game.me
+import rat.swizko.oWeapon
+import rat.swizko.settings.*
+import rat.swizko.settingsLoaded
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.toWeaponClass
 
 var meCurWep = Weapons.AK47
 var meCurWepEnt = 0L

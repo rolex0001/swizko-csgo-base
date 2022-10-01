@@ -1,6 +1,6 @@
-package rat.poison.utils
+package rat.swizko.utils
 
-import rat.poison.robot
+import rat.swizko.robot
 import java.awt.event.MouseEvent
 
 fun jumpAndThrow() {

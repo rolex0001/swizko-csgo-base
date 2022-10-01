@@ -1,7 +1,7 @@
-package rat.poison.game.netvars
+package rat.swizko.game.netvars
 
 import it.unimi.dsi.fastutil.ints.Int2ObjectArrayMap
-import rat.poison.game.offsets.ClientOffsets.dwFirstClass
+import rat.swizko.game.offsets.ClientOffsets.dwFirstClass
 
 object NetVars {
 	

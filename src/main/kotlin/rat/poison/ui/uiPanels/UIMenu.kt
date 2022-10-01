@@ -1,4 +1,4 @@
-package rat.poison.ui.uiPanels
+package rat.swizko.ui.uiPanels
 
 import com.badlogic.gdx.scenes.scene2d.ui.ScrollPane
 import com.badlogic.gdx.utils.Align
@@ -7,15 +7,15 @@ import com.kotcrab.vis.ui.widget.VisWindow
 import com.kotcrab.vis.ui.widget.tabbedpane.Tab
 import com.kotcrab.vis.ui.widget.tabbedpane.TabbedPane
 import com.kotcrab.vis.ui.widget.tabbedpane.TabbedPaneAdapter
-import rat.poison.*
-import rat.poison.game.CSGO
-import rat.poison.overlay.App.uiAimOverridenWeapons
-import rat.poison.overlay.opened
-import rat.poison.scripts.sendPacket
-import rat.poison.scripts.visuals.disableAllEsp
-import rat.poison.ui.tabs.*
-import rat.poison.ui.uiUpdate
-import rat.poison.utils.randInt
+import rat.swizko.*
+import rat.swizko.game.CSGO
+import rat.swizko.overlay.App.uiAimOverridenWeapons
+import rat.swizko.overlay.opened
+import rat.swizko.scripts.sendPacket
+import rat.swizko.scripts.visuals.disableAllEsp
+import rat.swizko.ui.tabs.*
+import rat.swizko.ui.uiUpdate
+import rat.swizko.utils.randInt
 import kotlin.math.sign
 import kotlin.system.exitProcess
 

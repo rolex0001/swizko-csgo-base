@@ -19,7 +19,7 @@ CZ75A {
     Imprint : 602 : 0.00 : 1.00
     Hexane : 218 : 0.00 : 0.40
     Twist : 334 : 0.00 : 1.00
-    Poison Dart : 315 : 0.00 : 0.70
+    swizko Dart : 315 : 0.00 : 0.70
     Crimson Web : 12 : 0.06 : 0.80
     Emerald Quartz : 859 : 0.00 : 0.70
     Emerald : 453 : 0.00 : 0.08
@@ -422,7 +422,7 @@ MP9 {
     Airlock : 609 : 0.00 : 1.00
     Wild Lily : 734 : 0.00 : 0.70
     Goo : 679 : 0.00 : 0.60
-    Ruby Poison Dart : 482 : 0.00 : 0.50
+    Ruby swizko Dart : 482 : 0.00 : 0.50
     Rose Iron : 262 : 0.00 : 0.30
     Hypnotic : 61 : 0.00 : 0.08
     Stained Glass : 867 : 0.00 : 0.50
@@ -432,7 +432,7 @@ MP9 {
     Black Sand : 697 : 0.00 : 1.00
     Sand Scale : 630 : 0.00 : 0.45
     Bioleak : 549 : 0.00 : 0.50
-    Deadly Poison : 403 : 0.00 : 1.00
+    Deadly swizko : 403 : 0.00 : 1.00
     Dart : 386 : 0.00 : 0.46
     Pandora's Box : 448 : 0.00 : 0.30
     Setting Sun : 368 : 0.00 : 1.00
@@ -1042,7 +1042,7 @@ M249 {
 	Predator : 170 : 0.06 : 0.80
 	Deep Relief : 983 : 0.00 : 1.00
     Aztec : 902 : 0.00 : 0.75
-    Emerald Poison Dart : 648 : 0.00 : 0.45
+    Emerald swizko Dart : 648 : 0.00 : 0.45
     Nebula Crusader : 496 : 0.00 : 1.00
     Warbird : 900 : 0.05 : 0.65
     Spectre : 547 : 0.00 : 0.50

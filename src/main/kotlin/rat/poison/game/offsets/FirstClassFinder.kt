@@ -1,11 +1,11 @@
 
 
-package rat.poison.game.offsets
+package rat.swizko.game.offsets
 
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.offsets.ClientOffsets.decalname
-import rat.poison.utils.extensions.uint
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.offsets.ClientOffsets.decalname
+import rat.swizko.utils.extensions.uint
 
 fun findDecal(): Long {
 	val mask = ByteArray(4)

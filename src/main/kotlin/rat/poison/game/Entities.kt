@@ -1,10 +1,10 @@
-package rat.poison.game
+package rat.swizko.game
 
 import it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap
 import it.unimi.dsi.fastutil.objects.Object2ObjectMap
-import rat.poison.game.entity.EntityType
-import rat.poison.game.entity.Player
-import rat.poison.settings.MAX_ENTITIES
+import rat.swizko.game.entity.EntityType
+import rat.swizko.game.entity.Player
+import rat.swizko.settings.MAX_ENTITIES
 
 @Volatile
 var me: Player = 0

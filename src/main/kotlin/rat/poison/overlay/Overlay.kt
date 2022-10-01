@@ -1,21 +1,21 @@
 /////////////////////////////////
 ////This was provided by Mr. Noad
 /////////////////////////////////
-package rat.poison.overlay
+package rat.swizko.overlay
 
 import com.sun.jna.platform.win32.WinUser
-import rat.poison.DEFAULT_MENU_APP
-import rat.poison.MENU_APP
-import rat.poison.appless
-import rat.poison.curSettings
-import rat.poison.interfaces.IOverlay
-import rat.poison.interfaces.IOverlayListener
-import rat.poison.jna.*
-import rat.poison.jna.enums.AccentStates
-import rat.poison.jna.structures.Rect
-import rat.poison.jna.structures.WindowCompositionAttributeData
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inBackground
+import rat.swizko.DEFAULT_MENU_APP
+import rat.swizko.MENU_APP
+import rat.swizko.appless
+import rat.swizko.curSettings
+import rat.swizko.interfaces.IOverlay
+import rat.swizko.interfaces.IOverlayListener
+import rat.swizko.jna.*
+import rat.swizko.jna.enums.AccentStates
+import rat.swizko.jna.structures.Rect
+import rat.swizko.jna.structures.WindowCompositionAttributeData
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inBackground
 import kotlin.concurrent.thread
 import kotlin.properties.Delegates
 

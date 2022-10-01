@@ -1,14 +1,14 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import org.jire.arrowhead.keyPressed
-import rat.poison.curSettings
-import rat.poison.game.CSGO
-import rat.poison.game.hooks.cursorEnable
-import rat.poison.game.hooks.updateCursorEnable
-import rat.poison.game.offsets.ClientOffsets.dwUse
-import rat.poison.scripts.aim.meDead
-import rat.poison.utils.every
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO
+import rat.swizko.game.hooks.cursorEnable
+import rat.swizko.game.hooks.updateCursorEnable
+import rat.swizko.game.offsets.ClientOffsets.dwUse
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.utils.every
+import rat.swizko.utils.generalUtil.strToBool
 
 fun doorSpam() = every(20, inGameCheck = true) {
     if (!curSettings["D_SPAM"].strToBool() || meDead) return@every

@@ -1,4 +1,4 @@
-package rat.poison.utils
+package rat.swizko.utils
 
 class Settings : MutableMap<String, Any?> {
     private val savedValues = mutableMapOf<String, String>()

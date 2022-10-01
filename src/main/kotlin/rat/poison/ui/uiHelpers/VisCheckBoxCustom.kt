@@ -1,16 +1,16 @@
-package rat.poison.ui.uiHelpers
+package rat.swizko.ui.uiHelpers
 
 import com.kotcrab.vis.ui.widget.Tooltip
 import com.kotcrab.vis.ui.widget.Tooltip.removeTooltip
 import com.kotcrab.vis.ui.widget.VisCheckBox
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.scripts.visuals.disableAllEsp
-import rat.poison.ui.changed
-import rat.poison.ui.tabs.*
-import rat.poison.utils.generalUtil.boolToStr
-import rat.poison.utils.generalUtil.strToBool
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.scripts.visuals.disableAllEsp
+import rat.swizko.ui.changed
+import rat.swizko.ui.tabs.*
+import rat.swizko.utils.generalUtil.boolToStr
+import rat.swizko.utils.generalUtil.strToBool
 
 class VisCheckBoxCustom(mainText: String, varName: String, visibleText: Boolean = true) : VisCheckBox(mainText) {
     private val variableName = varName

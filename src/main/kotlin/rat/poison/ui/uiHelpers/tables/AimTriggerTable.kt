@@ -1,22 +1,22 @@
-package rat.poison.ui.uiHelpers.tables
+package rat.swizko.ui.uiHelpers.tables
 
 import com.badlogic.gdx.utils.Array
 import com.kotcrab.vis.ui.widget.VisLabel
 import com.kotcrab.vis.ui.widget.VisSelectBox
 import com.kotcrab.vis.ui.widget.VisTable
-import rat.poison.curLocale
-import rat.poison.curSettings
-import rat.poison.dbg
-import rat.poison.toLocale
-import rat.poison.ui.changed
-import rat.poison.ui.tabs.categorySelected
-import rat.poison.ui.tabs.gunCategories
-import rat.poison.ui.uiHelpers.VisCheckBoxCustom
-import rat.poison.ui.uiHelpers.VisInputFieldCustom
-import rat.poison.ui.uiHelpers.aimTab.ATabVisCheckBox
-import rat.poison.ui.uiHelpers.aimTab.ATabVisSlider
-import rat.poison.ui.uiPanels.aimTab
-import rat.poison.ui.uiUpdate
+import rat.swizko.curLocale
+import rat.swizko.curSettings
+import rat.swizko.dbg
+import rat.swizko.toLocale
+import rat.swizko.ui.changed
+import rat.swizko.ui.tabs.categorySelected
+import rat.swizko.ui.tabs.gunCategories
+import rat.swizko.ui.uiHelpers.VisCheckBoxCustom
+import rat.swizko.ui.uiHelpers.VisInputFieldCustom
+import rat.swizko.ui.uiHelpers.aimTab.ATabVisCheckBox
+import rat.swizko.ui.uiHelpers.aimTab.ATabVisSlider
+import rat.swizko.ui.uiPanels.aimTab
+import rat.swizko.ui.uiUpdate
 
 class AimTriggerTable: VisTable(false) {
     //Init labels/sliders/boxes that show values here

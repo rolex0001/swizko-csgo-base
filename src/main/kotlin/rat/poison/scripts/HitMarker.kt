@@ -1,22 +1,22 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer
 import com.badlogic.gdx.math.MathUtils.clamp
 import com.badlogic.gdx.utils.Align
-import rat.poison.curSettings
-import rat.poison.game.CSGO
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.entity.punch
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.m_flHealthShotBoostExpirationTime
-import rat.poison.game.netvars.NetVarOffsets.m_totalHitsOnServer
-import rat.poison.overlay.App
-import rat.poison.scripts.aim.meDead
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.strToColor
-import rat.poison.utils.generalUtil.strToColorGDX
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.entity.punch
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.m_flHealthShotBoostExpirationTime
+import rat.swizko.game.netvars.NetVarOffsets.m_totalHitsOnServer
+import rat.swizko.overlay.App
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.strToColor
+import rat.swizko.utils.generalUtil.strToColorGDX
+import rat.swizko.utils.inGame
 
 var hitMarkerAlpha = 0F
 var hitMarkerCombo = 0
@@ -74,7 +74,7 @@ fun hitMarker() = App {
             begin()
             set(ShapeRenderer.ShapeType.Filled)
 
-            var col : rat.poison.game.Color
+            var col : rat.swizko.game.Color
 
             if (curSettings["ENABLE_HITMARKER"].strToBool()) {
                 if (curSettings["HITMARKER_OUTLINE"].strToBool()) { //Outline

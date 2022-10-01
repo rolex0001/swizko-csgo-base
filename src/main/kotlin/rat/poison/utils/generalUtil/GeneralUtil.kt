@@ -1,10 +1,10 @@
-package rat.poison.utils.generalUtil
+package rat.swizko.utils.generalUtil
 
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.math.Matrix4
-import rat.poison.dbg
-import rat.poison.oWeapon
-import rat.poison.sWeapon
+import rat.swizko.dbg
+import rat.swizko.oWeapon
+import rat.swizko.sWeapon
 
 fun Any.strToBool() = this.toString().lowercase() == "true" || this == true || this == 1.0 || this == 1 || this == 1F
 fun Any.boolToStr() = this.toString()
@@ -16,14 +16,14 @@ fun Boolean.toFloat() = if (this) 1F else 0F
 fun Boolean.toDouble() = if (this) 1.0 else 0.0
 fun Boolean.toInt() = if (this) 1 else 0
 
-fun convStrToColor(input: String): rat.poison.game.Color { //Rat poison color
+fun convStrToColor(input: String): rat.swizko.game.Color { //Rat swizko color
     try {
         var line = input
         line = line.replace("Color(", "").replace(")", "").replace(",", "")
 
         val arrayLine = line.trim().split(" ", ignoreCase = true, limit = 4)
 
-        return rat.poison.game.Color(arrayLine[0].replace("red=", "").toInt(),
+        return rat.swizko.game.Color(arrayLine[0].replace("red=", "").toInt(),
                 arrayLine[1].replace("green=", "").toInt(),
                 arrayLine[2].replace("blue=", "").toInt(),
                 arrayLine[3].replace("alpha=", "").toDouble())
@@ -32,7 +32,7 @@ fun convStrToColor(input: String): rat.poison.game.Color { //Rat poison color
             println("[DEBUG] $input Color is invalid, using white")
         }
 
-        return rat.poison.game.Color(255, 255, 255, 1.0)
+        return rat.swizko.game.Color(255, 255, 255, 1.0)
     }
 }
 

@@ -1,14 +1,14 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import kotlinx.coroutines.Runnable
-import rat.poison.curSettings
-import rat.poison.game.angle
-import rat.poison.game.clientState
-import rat.poison.robot
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.Angle
-import rat.poison.utils.normalize
-import rat.poison.utils.pathAim
+import rat.swizko.curSettings
+import rat.swizko.game.angle
+import rat.swizko.game.clientState
+import rat.swizko.robot
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.Angle
+import rat.swizko.utils.normalize
+import rat.swizko.utils.pathAim
 import java.awt.event.KeyEvent
 import java.awt.event.MouseEvent
 

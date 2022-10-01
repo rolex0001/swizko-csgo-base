@@ -1,16 +1,16 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import com.badlogic.gdx.graphics.Color
 import org.jire.arrowhead.keyPressed
-import rat.poison.curSettings
-import rat.poison.game.worldToScreen
-import rat.poison.overlay.App
-import rat.poison.scripts.aim.meCurWep
-import rat.poison.scripts.aim.meDead
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.Vector
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.worldToScreen
+import rat.swizko.overlay.App
+import rat.swizko.scripts.aim.meCurWep
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.Vector
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inGame
 
 fun drawBacktrack() = App {
     if (MENUTOG) return@App

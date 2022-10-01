@@ -1,25 +1,25 @@
-package rat.poison.scripts
+package rat.swizko.scripts
 
 import org.jire.arrowhead.keyPressed
-import rat.poison.curSettings
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.angle
-import rat.poison.game.clientState
-import rat.poison.game.entity.*
-import rat.poison.game.me
-import rat.poison.game.netvars.NetVarOffsets.iCrossHairID
-import rat.poison.game.offsets.ClientOffsets
-import rat.poison.game.offsets.ClientOffsets.dwForceAttack
-import rat.poison.safeToInt
-import rat.poison.scripts.aim.*
-import rat.poison.settings.AIM_KEY
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.settings.MENUTOG
-import rat.poison.utils.every
-import rat.poison.utils.extensions.uint
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.inGame
+import rat.swizko.curSettings
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.angle
+import rat.swizko.game.clientState
+import rat.swizko.game.entity.*
+import rat.swizko.game.me
+import rat.swizko.game.netvars.NetVarOffsets.iCrossHairID
+import rat.swizko.game.offsets.ClientOffsets
+import rat.swizko.game.offsets.ClientOffsets.dwForceAttack
+import rat.swizko.safeToInt
+import rat.swizko.scripts.aim.*
+import rat.swizko.settings.AIM_KEY
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.settings.MENUTOG
+import rat.swizko.utils.every
+import rat.swizko.utils.extensions.uint
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.inGame
 
 var inTrigger = false
 private var triggerShots = 0

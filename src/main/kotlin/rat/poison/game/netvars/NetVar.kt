@@ -1,7 +1,7 @@
-package rat.poison.game.netvars
+package rat.swizko.game.netvars
 
-import rat.poison.game.netvars.NetVars.hashClassAndVar
-import rat.poison.game.netvars.NetVars.map
+import rat.swizko.game.netvars.NetVars.hashClassAndVar
+import rat.swizko.game.netvars.NetVars.map
 import kotlin.reflect.KProperty
 
 class NetVar(private val className: String, private var varName: String?, val offset: Int, private val index: Int) {

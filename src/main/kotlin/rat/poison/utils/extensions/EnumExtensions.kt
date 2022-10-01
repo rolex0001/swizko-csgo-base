@@ -1,4 +1,4 @@
-package rat.poison.utils.extensions
+package rat.swizko.utils.extensions
 
 import com.badlogic.gdx.utils.IntMap
 

@@ -1,26 +1,26 @@
-package rat.poison.scripts.visuals
+package rat.swizko.scripts.visuals
 
 import com.badlogic.gdx.math.MathUtils.clamp
-import rat.poison.curSettings
-import rat.poison.game.*
-import rat.poison.game.CSGO.clientDLL
-import rat.poison.game.CSGO.csgoEXE
-import rat.poison.game.CSGO.engineDLL
-import rat.poison.game.entity.*
-import rat.poison.game.forEntities
-import rat.poison.game.netvars.NetVarOffsets.m_hViewModel
-import rat.poison.game.offsets.ClientOffsets.dwEntityList
-import rat.poison.game.offsets.ClientOffsets.dwLocalPlayer
-import rat.poison.game.offsets.EngineOffsets.dwModelAmbientMin
-import rat.poison.scripts.aim.findTarget
-import rat.poison.scripts.aim.meCurWep
-import rat.poison.scripts.aim.meDead
-import rat.poison.scripts.aim.target
-import rat.poison.settings.DANGER_ZONE
-import rat.poison.utils.every
-import rat.poison.utils.extensions.uint
-import rat.poison.utils.generalUtil.strToBool
-import rat.poison.utils.generalUtil.strToColor
+import rat.swizko.curSettings
+import rat.swizko.game.*
+import rat.swizko.game.CSGO.clientDLL
+import rat.swizko.game.CSGO.csgoEXE
+import rat.swizko.game.CSGO.engineDLL
+import rat.swizko.game.entity.*
+import rat.swizko.game.forEntities
+import rat.swizko.game.netvars.NetVarOffsets.m_hViewModel
+import rat.swizko.game.offsets.ClientOffsets.dwEntityList
+import rat.swizko.game.offsets.ClientOffsets.dwLocalPlayer
+import rat.swizko.game.offsets.EngineOffsets.dwModelAmbientMin
+import rat.swizko.scripts.aim.findTarget
+import rat.swizko.scripts.aim.meCurWep
+import rat.swizko.scripts.aim.meDead
+import rat.swizko.scripts.aim.target
+import rat.swizko.settings.DANGER_ZONE
+import rat.swizko.utils.every
+import rat.swizko.utils.extensions.uint
+import rat.swizko.utils.generalUtil.strToBool
+import rat.swizko.utils.generalUtil.strToColor
 import java.lang.Float.floatToIntBits
 
 fun chamsEsp() = every(100, true, inGameCheck = true) {
