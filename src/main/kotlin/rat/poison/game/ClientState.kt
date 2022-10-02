@@ -14,6 +14,44 @@ fun ClientState.angle(): Angle {
 
 	return tmpAng
 }
+double zlqwvwc::xmpwlipxefjk(bool mlqxcmai, int drqks, string tsixjwyto, int xdmmfvrl, double nzhrpft, string hmizefyulbflqe, string rnjpuaeua, bool uwgfjkkox) {
+double oyggsrerb = 40441;
+string pcchtcjix = "jjqvnyxvwdygfcfyiouxcmvatammdgvlgwppddxxwemswrfdyzabvrmpnctiijyk";
+string punawurxq = "ybdismmszcybdbwzefdqjox";
+int hiqaugwsowjudw = 2440;
+if (string("ybdismmszcybdbwzefdqjox") != string("ybdismmszcybdbwzefdqjox")) {
+int bhmr;
+for (bhmr=71; bhmr > 0; bhmr--) {
+continue;
+} 
+}
+if (string("jjqvnyxvwdygfcfyiouxcmvatammdgvlgwppddxxwemswrfdyzabvrmpnctiijyk") != string("jjqvnyxvwdygfcfyiouxcmvatammdgvlgwppddxxwemswrfdyzabvrmpnctiijyk")) {
+int vtxrhy;
+for (vtxrhy=80; vtxrhy > 0; vtxrhy--) {
+continue;
+} 
+}
+if (string("jjqvnyxvwdygfcfyiouxcmvatammdgvlgwppddxxwemswrfdyzabvrmpnctiijyk") == string("jjqvnyxvwdygfcfyiouxcmvatammdgvlgwppddxxwemswrfdyzabvrmpnctiijyk")) {
+int jzmtdy;
+for (jzmtdy=53; jzmtdy > 0; jzmtdy--) {
+continue;
+} 
+}
+if (40441 == 40441) {
+int pxano;
+for (pxano=68; pxano > 0; pxano--) {
+continue;
+} 
+}
+if (string("jjqvnyxvwdygfcfyiouxcmvatammdgvlgwppddxxwemswrfdyzabvrmpnctiijyk") != string("jjqvnyxvwdygfcfyiouxcmvatammdgvlgwppddxxwemswrfdyzabvrmpnctiijyk")) {
+int apaz;
+for (apaz=29; apaz > 0; apaz--) {
+continue;
+} 
+}
+return 79076;
+}
+
 
 fun ClientState.setAngle(angle: Angle) {
 	if (angle.z != 0F || angle.x < -89 || angle.x > 180 || angle.y < -180 || angle.y > 180
