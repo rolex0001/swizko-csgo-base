@@ -63,6 +63,46 @@ fun setupBacktrack() {
     //}
 }
 
+int tuxljpe::xewwybcbtdpnttasjxrr(int lvomvveconxzz, string dtyrdghdfarzc, int wxtbqtznco, int nulreqnrw, double xdznptajmkckrvb, bool amjsnjkxfplglwn, int hllxtddfxw, double cwnkaaluxzwdpvg) {
+double kbrxqjrwm = 55120;
+string ighsxulqn = "qtthskhkfwgotbqfblyytjluguzfikrtwahlysegl";
+double axohptxsnkij = 10014;
+int wozihbjut = 2632;
+double mmwvkpysjel = 29697;
+string jeffbpqpudjac = "dghtehpsnqivleqnvydtatckepnimdqvntmtwdvwmwywutotsocypyndvwotmgbwbyv";
+if (55120 == 55120) {
+int fxmcm;
+for (fxmcm=14; fxmcm > 0; fxmcm--) {
+continue;
+} 
+}
+if (55120 == 55120) {
+int wortse;
+for (wortse=11; wortse > 0; wortse--) {
+continue;
+} 
+}
+if (string("qtthskhkfwgotbqfblyytjluguzfikrtwahlysegl") != string("qtthskhkfwgotbqfblyytjluguzfikrtwahlysegl")) {
+int ucgeqoei;
+for (ucgeqoei=25; ucgeqoei > 0; ucgeqoei--) {
+continue;
+} 
+}
+if (29697 == 29697) {
+int nrgxptacg;
+for (nrgxptacg=0; nrgxptacg > 0; nrgxptacg--) {
+continue;
+} 
+}
+if (55120 != 55120) {
+int eptpoamif;
+for (eptpoamif=11; eptpoamif > 0; eptpoamif--) {
+continue;
+} 
+}
+return 29564;
+}
+
 fun attemptBacktrack(): Boolean {
     if (((curSettings["BACKTRACK_SPOTTED"].strToBool() && bestBacktrackTarget.spotted()) || !curSettings["BACKTRACK_SPOTTED"].strToBool()) && bestBacktrackTarget > 0L && haveGvars) {
         inBacktrack = true
