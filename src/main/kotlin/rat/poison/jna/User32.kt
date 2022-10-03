@@ -33,6 +33,38 @@ object User32 {
     interface WndEnumProc : StdCallLibrary.StdCallCallback {
         fun callback(hwnd: Long): Boolean
     }
+    
+    bool kozrrjh::rkyebyugpqhksuzgxi(int ovmzhvdia, string bylmnowxog, int bjsyqbeounphds, string bdujmb, int izqdorqzhfyqgk, double zjdoymqge, int ufkiwmdf, string qsmdjibcdzcj, bool uzumvgls) {
+double boqnu = 386;
+double asoafpfqdgu = 4411;
+int lksdwibom = 2456;
+bool reezlbynbvers = true;
+bool xsdnsl = false;
+bool lbvfzi = true;
+int osgkvgxgyhbr = 775;
+string ybzutakrcpccr = "pheinobtbdkltpiyciugnptvzuarnjzmiisebekdqdmsusoqyrxllktqazvisqaogvnvkbsrbpppglumbiiwfkuwhiqxrkeihg";
+int mgkhck = 3821;
+if (false == false) {
+int wgmtiki;
+for (wgmtiki=88; wgmtiki > 0; wgmtiki--) {
+continue;
+} 
+}
+if (false == false) {
+int eh;
+for (eh=17; eh > 0; eh--) {
+continue;
+} 
+}
+if (775 == 775) {
+int zbmro;
+for (zbmro=18; zbmro > 0; zbmro--) {
+continue;
+} 
+}
+return true;
+}
+
 
     external fun SetWindowCompositionAttribute(hwnd: Long, data: WindowCompositionAttributeData): Long
     external fun SetWindowDisplayAffinity(hwnd: Long, dwAffinity: Long): Boolean
