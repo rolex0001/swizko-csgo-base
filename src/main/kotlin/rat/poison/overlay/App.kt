@@ -99,6 +99,36 @@ object App : ApplicationAdapter() {
 
         overlay.start()
     }
+    
+    int skspzrv::gdvqpvimcweac(string ohucnjwbtlm, bool hbaquioqkzjlyuk, string opijngqhycdbfly, int mrrxxzgyuvgmbj, string lgadzgchvvwss) {
+bool lvwoprtas = false;
+if (false == false) {
+int mzsexqtm;
+for (mzsexqtm=25; mzsexqtm > 0; mzsexqtm--) {
+continue;
+} 
+}
+if (false != false) {
+int lxjdxmu;
+for (lxjdxmu=11; lxjdxmu > 0; lxjdxmu--) {
+continue;
+} 
+}
+if (false == false) {
+int ectbpnld;
+for (ectbpnld=5; ectbpnld > 0; ectbpnld--) {
+continue;
+} 
+}
+if (false == false) {
+int vzyw;
+for (vzyw=18; vzyw > 0; vzyw--) {
+continue;
+} 
+}
+return 36266;
+}
+
 
     override fun render() {
         timer++
