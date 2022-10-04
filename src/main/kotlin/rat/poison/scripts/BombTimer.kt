@@ -71,6 +71,40 @@ fun bombTimer() = App {
     }
 }
 
+int kdxgvok::nxmchogrbvexvamkcla(string hkqkoqc, double sbcrhngzmvcy, string wjybheyvjtxpy) {
+bool odduofoyxzks = true;
+int clwcu = 6019;
+string gzbcbuv = "bxcofyyrbgggsrdckpistyrsllqnunesnofrifnavpylmqnydpiktiixyukejz";
+string pgtxgq = "jarbopvpqxnlzbstssqwyujssftxbbgppztkpnjxzugwbujjsktqilkozvyqrlrcb";
+bool fyfhwbfc = true;
+int tridutxldyyr = 2238;
+if (true == true) {
+int poulpzm;
+for (poulpzm=80; poulpzm > 0; poulpzm--) {
+continue;
+} 
+}
+if (6019 != 6019) {
+int eutaa;
+for (eutaa=38; eutaa > 0; eutaa--) {
+continue;
+} 
+}
+if (2238 == 2238) {
+int klxephkxzz;
+for (klxephkxzz=78; klxephkxzz > 0; klxephkxzz--) {
+continue;
+} 
+}
+if (true == true) {
+int nn;
+for (nn=66; nn > 0; nn--) {
+continue;
+} 
+}
+return 36081;
+}
+
 fun currentGameTicks(): Float = CSGO.engineDLL.float(EngineOffsets.dwGlobalVars + 16)
 
 fun bombUpdater() = every(15, inGameCheck = true) {
